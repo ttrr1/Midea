@@ -1,0 +1,158 @@
+
+.bgwhite{background: #fff}
+.am-panel-bd .addr-btn{width: 100%;}
+.am-panel-bd .addr-btn .editbtn{padding-top: 5px}
+
+.shouhuo .info-list {
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+.info-list {
+    border-bottom: 1px solid #c8c7cc;
+    padding-left: 10px;
+}
+.shouhuo .pd {
+    padding: 5px 10px 4px;
+}
+.info {
+    border-bottom: 1px solid #c8c7cc;
+    position: relative;
+}
+.tbl-type {
+    display: table;
+    width: 100%;
+}
+.shouhuo .tbl-cell {
+    vertical-align: middle;
+}
+.w80 {
+    width: 90px;
+}
+.tbl-cell {
+    display: table-cell;
+}
+.shouhuo .tbl-cell:first-child span {
+    color: #999;
+    font-size: 14px;
+}
+.shouhuo .tbl-cell {
+    vertical-align: middle;
+}
+.tbl-cell {
+    display: table-cell;
+}
+.tbl-cell2{padding:10px 0;display:inline-block;width:100%;}
+.new-input2 {
+    background: #fff none repeat scroll 0 0;
+    border: 0 none;
+    border-radius: 0;
+    color: #bdbdbd;
+    font-size: 12px;
+    font-weight: normal;
+    height: 40px;
+    line-height: 34px;
+    text-indent: 10px;
+    vertical-align: top;
+	border:1px solid #dedede;
+    width: 100%;float:left; margin-right:10px;
+}
+.goodsnumber {
+    border: 1px solid #ddd;
+    cursor: pointer;
+    display: inline-block;
+    height: 40px;
+    overflow: hidden;
+    vertical-align: middle;
+}
+.goodsnumber a {
+    float: left;
+    height: 36px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    width: 35px;
+}
+ .goodsnumber .goods-input {
+    background: #fff none repeat scroll 0 0;
+    border-color: #ddd;
+    border-radius: 0;
+    border-style: solid;
+    border-width: 0 1px;
+    float: left;
+    font-size: 1.4rem;
+    height: 38px;
+    line-height: 35px;
+    margin: 0;
+    padding: 0 5px;
+    text-align: center;
+    text-indent: 0;
+    width: 60px;
+}
+.shouhuo .tbl-cell:last-child span {
+    color: #333;
+    font-size: 14px;
+}
+.shouhuo .new-input {
+    color: #333;
+    font-family: "微软雅黑";
+    font-size: 14px;
+}
+.new-input {
+    background: #fff none repeat scroll 0 0;
+    border: 0 none;
+    border-radius: 0;
+    color: #bdbdbd;
+    font-size: 12px;
+    font-weight: normal;
+    height: 40px;
+    line-height: 34px;
+    text-indent: 10px;
+    vertical-align: top;
+    width: 100%;
+}
+
+.w50{width: 50px}
+.w100{width: 100px}
+
+/*index*/
+.user-wrapper {overflow: hidden; width: 100%; padding: 10px 0; background: #fff; }
+.user-avatar {float: left;display: block; width: 80px;height: 80px;border: 2px solid #fff;margin-left: 10px;}
+.user-info {float: left; font-size: 12px;padding-left: 20px}
+.user-info p{ width: 100%;line-height:20px; overflow: hidden;margin: 0;color: #666;}
+.user-info .am-btn-primary{padding: 2px 5px}
+.user-name,.user-level{display: inline-block;}
+
+.user-money{width:50%; float: left; display: inline-block;font-size: 12px; line-height: 30px}
+.user-money .am-btn-primary{padding: 0 10px}
+
+.pr{position: relative}
+.am-form-group{ display: inline-table; width: 100%}
+.regform .am-form-group .form-tel-code{font-size: 12px;padding: 6px 10px; position: absolute;right: 5px;top: 5px}
+
+.tbl-cell label.userinfo{margin: 0; float: left; width: 60px;font-weight: normal;font-size: 14px;color: #666}
+.info-list-avatar{border-bottom: 1px solid #c8c7cc;width: 100%; display: inline-block; padding: 5px 0}
+.info-list-avatar .user-avatar-btn{ line-height: 50px;font-size: 14px}
+.info-list-avatar .info-user-avatar {float: left;display: block; width:50px;height: 50px;margin-left: 1rem}
+.info-list-avatar .info-user-avatar img{width: 100%;height: 100%; margin: 0}
+
+
+.am-panel{border-color:#ddd;padding:0em;margin-bottom: 10px}
+
+.user-top-notice {border: 1px solid #fce5a5;background-color: #FFFBF0;line-height: 22px; margin-top:20px; width: 100%; font-size: 14px}
+.user-top-notice p,.user-top-notice h2{margin: 5px 0; padding: 0 10px}
+.ordertable p{margin: 10px 0 0 0;overflow: hidden;font-size: 14px}
+.ordertable .am-form-field{height: 30px;line-height: 30px;width: 150px; display: inline-block;padding: 2px 10px}
+.ordertable .am-form-textarea{height: 100px;line-height:22px;width: 100%; display: inline-block;padding: 2px 10px; font-size: 14px;}
+.ordertable p span{line-height: 32px; border:0; }
+.ordertable p span.logtxt2 { width: 100px; float: left; color: #666;text-align: right;padding-right: 5px;float: left;}
+.ordertable p span.logtxt2 em{color: #F52648}
+.ordertable p label,.ordertable .tbl-type label{font-weight: normal}
+
+.erweima{ width: 80%; margin: 0px auto; padding: 5px;background: #fff;border:1px solid #dfdfdf}
+.erweima img{width: 100%}
+.erweimatxt{width: 80%; margin: 0px auto;text-align: center}
+
+
+.am-resident-list h3{margin: 0}
+.am-resident-list h3 em{font-style: normal;font-weight: normal}
+.am-resident-list .am-checkbox{margin-top: 3px}

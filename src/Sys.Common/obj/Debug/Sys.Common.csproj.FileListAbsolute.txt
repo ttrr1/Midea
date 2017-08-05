@@ -1,0 +1,16 @@
+E:\SDW\MinuUITest\src\Sys.Common\bin\Debug\Sys.Common.dll
+E:\SDW\MinuUITest\src\Sys.Common\bin\Debug\Sys.Common.pdb
+E:\SDW\MinuUITest\src\Sys.Common\obj\Debug\Sys.Common.dll
+E:\SDW\MinuUITest\src\Sys.Common\obj\Debug\Sys.Common.pdb
+E:\SDW\Midea\src\Sys.Common\bin\Debug\Sys.Common.dll
+E:\SDW\Midea\src\Sys.Common\bin\Debug\Sys.Common.pdb
+E:\SDW\Midea\src\Sys.Common\bin\Debug\Jayrock.Json.dll
+E:\SDW\Midea\src\Sys.Common\obj\Debug\Sys.Common.dll
+E:\SDW\Midea\src\Sys.Common\obj\Debug\Sys.Common.pdb
+E:\SDW\Midea\src\Sys.Common\obj\Debug\Sys.Common.csprojResolveAssemblyReference.cache
+E:\Projects\Midea\src\Sys.Common\bin\Debug\Sys.Common.dll
+E:\Projects\Midea\src\Sys.Common\bin\Debug\Sys.Common.pdb
+E:\Projects\Midea\src\Sys.Common\bin\Debug\Jayrock.Json.dll
+E:\Projects\Midea\src\Sys.Common\obj\Debug\Sys.Common.csprojResolveAssemblyReference.cache
+E:\Projects\Midea\src\Sys.Common\obj\Debug\Sys.Common.dll
+E:\Projects\Midea\src\Sys.Common\obj\Debug\Sys.Common.pdb

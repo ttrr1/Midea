@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F26FF7D6-EF1D-4BCD-97FD-AA26650CFF51}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Sys.Common</RootNamespace>
+    <AssemblyName>Sys.Common</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Jayrock.Json">
+      <HintPath>..\DDLs\Jayrock.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Agent.cs" />
+    <Compile Include="CommonCheck.cs" />
+    <Compile Include="ConfigHelper.cs" />
+    <Compile Include="Converter\PinYinConverter\AssemblyResource.cs" />
+    <Compile Include="Converter\PinYinConverter\CharDictionary.cs" />
+    <Compile Include="Converter\PinYinConverter\CharUnit.cs" />
+    <Compile Include="Converter\PinYinConverter\CharUnitPredicate.cs" />
+    <Compile Include="Converter\PinYinConverter\ChineseChar.cs" />
+    <Compile Include="Converter\PinYinConverter\HomophoneDictionary.cs" />
+    <Compile Include="Converter\PinYinConverter\HomophoneUnit.cs" />
+    <Compile Include="Converter\PinYinConverter\PinyinDictionary.cs" />
+    <Compile Include="Converter\PinYinConverter\PinyinUnit.cs" />
+    <Compile Include="Converter\PinYinConverter\PinyinUnitPredicate.cs" />
+    <Compile Include="Converter\PinYinConverter\StrokeDictionary.cs" />
+    <Compile Include="Converter\PinYinConverter\StrokeUnit.cs" />
+    <Compile Include="Converter\PinYinConverter\StrokeUnitPredicate.cs" />
+    <Compile Include="Cookie.cs" />
+    <Compile Include="CustomerDispiayType.cs" />
+    <Compile Include="CustomerDisplay.cs" />
+    <Compile Include="DataDataSecurity.cs" />
+    <Compile Include="DataValidator.cs" />
+    <Compile Include="DateCache.cs" />
+    <Compile Include="DBHelperSQL.cs" />
+    <Compile Include="DBHelperSQLRemote.cs" />
+    <Compile Include="DbHelperSub.cs" />
+    <Compile Include="DES.cs" />
+    <Compile Include="DNTRequest.cs" />
+    <Compile Include="Encrypter.cs" />
+    <Compile Include="Error.cs" />
+    <Compile Include="FileObj.cs" />
+    <Compile Include="FileTool.cs" />
+    <Compile Include="HtmlPageOption.cs" />
+    <Compile Include="Html\Parser\HtmlAttribute.cs" />
+    <Compile Include="Html\Parser\HtmlAttributeCollection.cs" />
+    <Compile Include="Html\Parser\HtmlCommentNode.cs" />
+    <Compile Include="Html\Parser\HtmlDocument.cs" />
+    <Compile Include="Html\Parser\HtmlElementFlag.cs" />
+    <Compile Include="Html\Parser\HtmlEntity.cs" />
+    <Compile Include="Html\Parser\HtmlNameTable.cs" />
+    <Compile Include="Html\Parser\HtmlNode.cs" />
+    <Compile Include="Html\Parser\HtmlNodeCollection.cs" />
+    <Compile Include="Html\Parser\HtmlNodeNavigator.cs" />
+    <Compile Include="Html\Parser\HtmlNodeType.cs" />
+    <Compile Include="Html\Parser\HTMLPacked.cs" />
+    <Compile Include="Html\Parser\HtmlParseError.cs" />
+    <Compile Include="Html\Parser\HtmlParseErrorCode.cs" />
+    <Compile Include="Html\Parser\HtmlTextNode.cs" />
+    <Compile Include="Html\Parser\MixedCodeDocument.cs" />
+    <Compile Include="Html\Parser\MixedCodeDocumentCodeFragment.cs" />
+    <Compile Include="Html\Parser\MixedCodeDocumentFragment.cs" />
+    <Compile Include="Html\Parser\MixedCodeDocumentFragmentList.cs" />
+    <Compile Include="Html\Parser\MixedCodeDocumentFragmentType.cs" />
+    <Compile Include="Html\Parser\MixedCodeDocumentTextFragment.cs" />
+    <Compile Include="ImageClass.cs" />
+    <Compile Include="ImageTool.cs" />
+    <Compile Include="InfoState.cs" />
+    <Compile Include="IP.cs" />
+    <Compile Include="ISmtpMail.cs" />
+    <Compile Include="JsonHelper.cs" />
+    <Compile Include="LideMark.cs" />
+    <Compile Include="Mail.cs" />
+    <Compile Include="MD5Tool.cs" />
+    <Compile Include="MHelper.cs" />
+    <Compile Include="PageRequest.cs" />
+    <Compile Include="PageValidate.cs" />
+    <Compile Include="PosOpenbox.cs" />
+    <Compile Include="PosPrinter.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SmtpMail.cs" />
+    <Compile Include="Thumbnail.cs" />
+    <Compile Include="UtilLog.cs" />
+    <Compile Include="Utils.cs" />
+    <Compile Include="Utils\PageValidate.cs" />
+    <Compile Include="Utils\PerfCounter.cs" />
+    <Compile Include="Utils\TypeConverter.cs" />
+    <Compile Include="Utils\Validator.cs" />
+    <Compile Include="XmlHelper.cs" />
+    <Compile Include="XMLProcess.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Converter\PinYinConverter\AssemblyResource.resources" />
+    <EmbeddedResource Include="Converter\PinYinConverter\CharDictionary.resources" />
+    <EmbeddedResource Include="Converter\PinYinConverter\HomophoneDictionary.resources" />
+    <EmbeddedResource Include="Converter\PinYinConverter\PinyinDictionary.resources" />
+    <EmbeddedResource Include="Converter\PinYinConverter\StrokeDictionary.resources" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Converter\PinYinConverter\vssver2.scc" />
+    <None Include="Html\Parser\vssver2.scc" />
+    <None Include="mssccprj.scc" />
+    <None Include="Utils\vssver2.scc" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

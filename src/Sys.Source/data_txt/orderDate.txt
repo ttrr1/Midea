@@ -1,0 +1,9 @@
+﻿[
+    { "id": "1day", "text": "一天内订单" },
+    { "id": "3day", "text": "三天内订单" },
+	{ "id":"1week","text":"一周内订单"},
+	{ "id":"1month","text":"一个月内订单"},
+	{ "id":"halfyear","text":"半年内订单"},
+	{ "id":"oneyear","text":"一年内订单"}
+   
+]

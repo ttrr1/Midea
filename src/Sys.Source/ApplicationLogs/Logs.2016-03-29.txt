@@ -1,0 +1,172 @@
+2016/3/29 16:13:45,------,调用开始,
+2016/3/29 16:13:45,收到数据,{
+    "request_id": "register" ,
+    "user_info": [
+        {
+            "USERLOGINID": "13052894185",
+            "PASSWORD": "123456",
+            "USERNAME": "yjm",
+            "CompanyName": "仕德伟",
+            "ProvinceId": null,
+            "ProvinceName": "江苏省",
+            "CityId": null,
+            "CityName": "苏州市",
+            "Address": "湘江路",
+            "contact": null,
+            "TypeKey": "1",
+            "TypeValue": " KA连锁",
+            "RoleId": "1"
+        }
+    ]
+}
+,
+2016/3/29 16:13:46,register,{"CommentId":0,"OrderId":null,"StarLevel":null,"Remark":null,"CreateUserId":null,"CreateDate":null},
+2016/3/29 16:37:19,------,调用开始,
+2016/3/29 16:37:28,收到数据,{
+    "request_id": "register" ,
+    "user_info": [
+        {
+            "USERLOGINID": "13052894185",
+            "PASSWORD": "123456",
+            "USERNAME": "yjm",
+            "CompanyName": "仕德伟",
+            "ProvinceId": null,
+            "ProvinceName": "江苏省",
+            "CityId": null,
+            "CityName": "苏州市",
+            "Address": "湘江路",
+            "contact": null,
+            "TypeKey": "1",
+            "TypeValue": " KA连锁",
+            "RoleId": "1"
+        }
+    ]
+}
+,
+2016/3/29 16:38:44,register,{"response_id":0,"response_msg":"手机号重复，不能注册！"},
+2016/3/29 16:40:16,------,调用开始,
+2016/3/29 16:40:16,收到数据,{
+    "request_id": "register" ,
+    "user_info": [
+        {
+            "USERLOGINID": "13052894186",
+            "PASSWORD": "123456",
+            "USERNAME": "yjm",
+            "CompanyName": "仕德伟",
+            "ProvinceId": null,
+            "ProvinceName": "江苏省",
+            "CityId": null,
+            "CityName": "苏州市",
+            "Address": "湘江路",
+            "contact": null,
+            "TypeKey": "1",
+            "TypeValue": " KA连锁",
+            "RoleId": "1"
+        }
+    ]
+}
+,
+2016/3/29 16:40:38,register,{"CommentId":0,"OrderId":null,"StarLevel":null,"Remark":null,"CreateUserId":null,"CreateDate":null},
+2016/3/29 16:44:01,------,调用开始,
+2016/3/29 16:44:01,收到数据,{
+    "request_id": "register" ,
+    "user_info": [
+        {
+            "USERLOGINID": "13052894187",
+            "PASSWORD": "123456",
+            "USERNAME": "yjm",
+            "CompanyName": "仕德伟",
+            "ProvinceId": null,
+            "ProvinceName": "江苏省",
+            "CityId": null,
+            "CityName": "苏州市",
+            "Address": "湘江路",
+            "contact": null,
+            "TypeKey": "1",
+            "TypeValue": " KA连锁",
+            "RoleId": "1"
+        }
+    ]
+}
+,
+Time:    2016/3/29 16:44:43
+Action:  register
+Source: System.Data
+Message: 列“UserID”不属于表 ds。
+StackTrace:    在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.get_Item(String columnName)
+   在 Sys.BLL.Account.GetUserIdByUserLoginId(String userLoginId) 位置 E:\SDW\Midea\src\Sys.Framework\BLL\UserCode\Account.cs:行号 59
+   在 MobileInterface_InterfaceService.Register(Dictionary`2 dicParams) 位置 e:\SDW\Midea\src\Sys.Source\MobileInterface\InterfaceService.aspx.cs:行号 184
+   在 MobileInterface_InterfaceService.Page_Load(Object sender, EventArgs e) 位置 e:\SDW\Midea\src\Sys.Source\MobileInterface\InterfaceService.aspx.cs:行号 65
+-----------------------------------------------------------
+
+2016/3/29 16:44:43,register,{"response_id":0,"response_msg":"处理异常！"},
+2016/3/29 16:47:34,------,调用开始,
+2016/3/29 16:47:34,收到数据,{
+    "request_id": "register" ,
+    "user_info": [
+        {
+            "USERLOGINID": "13052894188",
+            "PASSWORD": "123456",
+            "USERNAME": "yjm",
+            "CompanyName": "仕德伟",
+            "ProvinceId": null,
+            "ProvinceName": "江苏省",
+            "CityId": null,
+            "CityName": "苏州市",
+            "Address": "湘江路",
+            "contact": null,
+            "TypeKey": "1",
+            "TypeValue": " KA连锁",
+            "RoleId": "1"
+        }
+    ]
+}
+,
+2016/3/29 16:48:21,register,{"response_id":1,"response_msg":"注册成功！"},
+2016/3/29 16:50:10,------,调用开始,
+2016/3/29 16:50:10,收到数据,{
+    "request_id": "register" ,
+    "user_info": [
+        {
+            "USERLOGINID": "13052894189",
+            "PASSWORD": "123456",
+            "USERNAME": "yjm",
+            "CompanyName": "仕德伟",
+            "ProvinceId": null,
+            "ProvinceName": "江苏省",
+            "CityId": null,
+            "CityName": "苏州市",
+            "Address": "湘江路",
+            "contact": null,
+            "TypeKey": "1",
+            "TypeValue": " KA连锁",
+            "RoleId": "1"
+        }
+    ]
+}
+,
+2016/3/29 16:52:27,register,{"response_id":1,"response_msg":"注册成功！"},
+2016/3/29 17:02:57,------,调用开始,
+2016/3/29 17:02:57,收到数据,{
+    "request_id": "register" ,
+    "user_info": [
+        {
+            "USERLOGINID": "13052894181",
+            "PASSWORD": "123456",
+            "USERNAME": "yjm",
+            "CompanyName": "仕德伟",
+            "ProvinceId": null,
+            "ProvinceName": "江苏省",
+            "CityId": null,
+            "CityName": "苏州市",
+            "Address": "湘江路",
+            "contact": null,
+            "TypeKey": "1",
+            "TypeValue": " KA连锁",
+            "RoleId": "1"
+        }
+    ]
+}
+,
+2016/3/29 17:02:57,register,{"response_id":1,"response_msg":"注册成功！"},

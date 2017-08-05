@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<items>
+  <module key="Province_js" id="23" parentId="0" value="江苏省">
+    <subModule key="City_sz" id="2342" parentId="23" value="苏州市">
+      <item id="2553" parentId="2342">工业园区</item>
+      <item id="2552" parentId="2342">相城区</item>
+      <item id="2551" parentId="2342">吴中区</item>
+      <item id="2550" parentId="2342">高新区</item>
+      <item id="2549" parentId="2342">平江区</item>
+      <item id="2548" parentId="2342">金阊区</item>
+      <item id="2547" parentId="2342">沧浪区</item>
+      <item id="2546" parentId="2342">张家港市</item>
+      <item id="2545" parentId="2342">吴江市</item>
+      <item id="2544" parentId="2342">太仓市</item>
+      <item id="2543" parentId="2342">苏州市区</item>
+      <item id="2542" parentId="2342">昆山市</item>
+      <item id="2541" parentId="2342">常熟市</item>
+    </subModule>
+  </module>
+</items>

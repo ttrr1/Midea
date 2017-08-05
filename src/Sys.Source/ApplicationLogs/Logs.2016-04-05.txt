@@ -1,0 +1,351 @@
+2016/4/5 9:13:35,------,调用开始,
+2016/4/5 9:13:36,收到数据,{
+"request_id": "create_orders",
+"token": "user_id|password",
+    "orders": [
+        {
+            "ProjectName": "美的空调安装项目",
+"UserLoginId": "15156056291",
+"CustomName": "仕德伟",
+"CityId": "2342",
+"CityName": "苏州市",
+"AreaId": "2550",
+"AreaName": "高新区",
+"Address": "湘江路",
+"Contact": "",
+"Tel": "",
+            "Remark": null
+        }
+    ],
+    "orders_type": [
+        {
+            "ProductType": 1,
+            "ProductTypeName": "产品类型1",
+            "MainModelId": 1,
+            "MainModelName": "主机类型",
+            "MainModelNum": 1,
+            "SubModelId1": 1,
+            "SubModelName1": "内机类型1",
+            "SubModelNum1": 1,
+            "SubModelId2": 2,
+            "SubModelName2": "内机类型2",
+            "SubModelNum2": 1,
+            "SubModelId3": 3,
+            "SubModelName3": "内机类型3",
+            "SubModelNum3": 1,
+            "SubModelId4": 4,
+            "SubModelName4": "内机类型4",
+            "SubModelNum4": 1,
+            "ModelId": null,
+            "ModelName": null,
+            "ModelNum": null
+        },
+        {
+            "ProductType": 2,
+            "ProductTypeName": "产品类型2",
+            "MainModelId": null,
+            "MainModelName": null,
+            "MainModelNum": null,
+            "SubModelId1": null,
+            "SubModelName1": null,
+"SubModelNum1": null,
+            "SubModelId2": null,
+            "SubModelName2": null,
+"SubModelNum2": null,
+            "SubModelId3": null,
+            "SubModelName3": null,
+"SubModelNum3": null,
+            "SubModelId4": null,
+            "SubModelName4": null,
+"SubModelNum4": null,
+            "ModelId": 1,
+            "ModelName": "产品类型",
+            "ModelNum": 1
+        }
+    ]
+}
+,
+2016/4/5 9:13:36,create_orders,{"response_id":1,"response_msg":"订单创建成功！"},
+2016/4/5 9:14:37,------,调用开始,
+2016/4/5 9:14:37,收到数据,{
+"request_id": "create_orders",
+"token": "user_id|password",
+    "orders": [
+        {
+            "ProjectName": "美的空调安装项目",
+"UserLoginId": "15156056291",
+"CustomName": "仕德伟",
+"CityId": "2342",
+"CityName": "苏州市",
+"AreaId": "2550",
+"AreaName": "高新区",
+"Address": "湘江路",
+"Contact": "",
+"Tel": "",
+            "Remark": null
+        }
+    ],
+    "orders_type": [
+        {
+            "ProductType": 1,
+            "ProductTypeName": "产品类型1",
+            "MainModelId": 1,
+            "MainModelName": "主机类型",
+            "MainModelNum": 1,
+            "SubModelId1": 1,
+            "SubModelName1": "内机类型1",
+            "SubModelNum1": 1,
+            "SubModelId2": 2,
+            "SubModelName2": "内机类型2",
+            "SubModelNum2": 1,
+            "SubModelId3": 3,
+            "SubModelName3": "内机类型3",
+            "SubModelNum3": 1,
+            "SubModelId4": 4,
+            "SubModelName4": "内机类型4",
+            "SubModelNum4": 1,
+            "ModelId": null,
+            "ModelName": null,
+            "ModelNum": null
+        },
+        {
+            "ProductType": 2,
+            "ProductTypeName": "产品类型2",
+            "MainModelId": null,
+            "MainModelName": null,
+            "MainModelNum": null,
+            "SubModelId1": null,
+            "SubModelName1": null,
+"SubModelNum1": null,
+            "SubModelId2": null,
+            "SubModelName2": null,
+"SubModelNum2": null,
+            "SubModelId3": null,
+            "SubModelName3": null,
+"SubModelNum3": null,
+            "SubModelId4": null,
+            "SubModelName4": null,
+"SubModelNum4": null,
+            "ModelId": 1,
+            "ModelName": "产品类型",
+            "ModelNum": 1
+        }
+    ]
+}
+,
+2016/4/5 9:14:37,create_orders,{"response_id":1,"response_msg":"订单创建成功！"},
+2016/4/5 9:14:37,------,调用开始,
+2016/4/5 9:14:37,收到数据,{
+"request_id": "create_orders",
+"token": "user_id|password",
+    "orders": [
+        {
+            "ProjectName": "美的空调安装项目",
+"UserLoginId": "15156056291",
+"CustomName": "仕德伟",
+"CityId": "2342",
+"CityName": "苏州市",
+"AreaId": "2550",
+"AreaName": "高新区",
+"Address": "湘江路",
+"Contact": "",
+"Tel": "",
+            "Remark": null
+        }
+    ],
+    "orders_type": [
+        {
+            "ProductType": 1,
+            "ProductTypeName": "产品类型1",
+            "MainModelId": 1,
+            "MainModelName": "主机类型",
+            "MainModelNum": 1,
+            "SubModelId1": 1,
+            "SubModelName1": "内机类型1",
+            "SubModelNum1": 1,
+            "SubModelId2": 2,
+            "SubModelName2": "内机类型2",
+            "SubModelNum2": 1,
+            "SubModelId3": 3,
+            "SubModelName3": "内机类型3",
+            "SubModelNum3": 1,
+            "SubModelId4": 4,
+            "SubModelName4": "内机类型4",
+            "SubModelNum4": 1,
+            "ModelId": null,
+            "ModelName": null,
+            "ModelNum": null
+        },
+        {
+            "ProductType": 2,
+            "ProductTypeName": "产品类型2",
+            "MainModelId": null,
+            "MainModelName": null,
+            "MainModelNum": null,
+            "SubModelId1": null,
+            "SubModelName1": null,
+"SubModelNum1": null,
+            "SubModelId2": null,
+            "SubModelName2": null,
+"SubModelNum2": null,
+            "SubModelId3": null,
+            "SubModelName3": null,
+"SubModelNum3": null,
+            "SubModelId4": null,
+            "SubModelName4": null,
+"SubModelNum4": null,
+            "ModelId": 1,
+            "ModelName": "产品类型",
+            "ModelNum": 1
+        }
+    ]
+}
+,
+2016/4/5 9:14:38,create_orders,{"response_id":1,"response_msg":"订单创建成功！"},
+2016/4/5 9:14:38,------,调用开始,
+2016/4/5 9:14:38,收到数据,{
+"request_id": "create_orders",
+"token": "user_id|password",
+    "orders": [
+        {
+            "ProjectName": "美的空调安装项目",
+"UserLoginId": "15156056291",
+"CustomName": "仕德伟",
+"CityId": "2342",
+"CityName": "苏州市",
+"AreaId": "2550",
+"AreaName": "高新区",
+"Address": "湘江路",
+"Contact": "",
+"Tel": "",
+            "Remark": null
+        }
+    ],
+    "orders_type": [
+        {
+            "ProductType": 1,
+            "ProductTypeName": "产品类型1",
+            "MainModelId": 1,
+            "MainModelName": "主机类型",
+            "MainModelNum": 1,
+            "SubModelId1": 1,
+            "SubModelName1": "内机类型1",
+            "SubModelNum1": 1,
+            "SubModelId2": 2,
+            "SubModelName2": "内机类型2",
+            "SubModelNum2": 1,
+            "SubModelId3": 3,
+            "SubModelName3": "内机类型3",
+            "SubModelNum3": 1,
+            "SubModelId4": 4,
+            "SubModelName4": "内机类型4",
+            "SubModelNum4": 1,
+            "ModelId": null,
+            "ModelName": null,
+            "ModelNum": null
+        },
+        {
+            "ProductType": 2,
+            "ProductTypeName": "产品类型2",
+            "MainModelId": null,
+            "MainModelName": null,
+            "MainModelNum": null,
+            "SubModelId1": null,
+            "SubModelName1": null,
+"SubModelNum1": null,
+            "SubModelId2": null,
+            "SubModelName2": null,
+"SubModelNum2": null,
+            "SubModelId3": null,
+            "SubModelName3": null,
+"SubModelNum3": null,
+            "SubModelId4": null,
+            "SubModelName4": null,
+"SubModelNum4": null,
+            "ModelId": 1,
+            "ModelName": "产品类型",
+            "ModelNum": 1
+        }
+    ]
+}
+,
+2016/4/5 9:14:38,create_orders,{"response_id":1,"response_msg":"订单创建成功！"},
+2016/4/5 9:14:39,------,调用开始,
+2016/4/5 9:14:39,收到数据,{
+"request_id": "create_orders",
+"token": "user_id|password",
+    "orders": [
+        {
+            "ProjectName": "美的空调安装项目",
+"UserLoginId": "15156056291",
+"CustomName": "仕德伟",
+"CityId": "2342",
+"CityName": "苏州市",
+"AreaId": "2550",
+"AreaName": "高新区",
+"Address": "湘江路",
+"Contact": "",
+"Tel": "",
+            "Remark": null
+        }
+    ],
+    "orders_type": [
+        {
+            "ProductType": 1,
+            "ProductTypeName": "产品类型1",
+            "MainModelId": 1,
+            "MainModelName": "主机类型",
+            "MainModelNum": 1,
+            "SubModelId1": 1,
+            "SubModelName1": "内机类型1",
+            "SubModelNum1": 1,
+            "SubModelId2": 2,
+            "SubModelName2": "内机类型2",
+            "SubModelNum2": 1,
+            "SubModelId3": 3,
+            "SubModelName3": "内机类型3",
+            "SubModelNum3": 1,
+            "SubModelId4": 4,
+            "SubModelName4": "内机类型4",
+            "SubModelNum4": 1,
+            "ModelId": null,
+            "ModelName": null,
+            "ModelNum": null
+        },
+        {
+            "ProductType": 2,
+            "ProductTypeName": "产品类型2",
+            "MainModelId": null,
+            "MainModelName": null,
+            "MainModelNum": null,
+            "SubModelId1": null,
+            "SubModelName1": null,
+"SubModelNum1": null,
+            "SubModelId2": null,
+            "SubModelName2": null,
+"SubModelNum2": null,
+            "SubModelId3": null,
+            "SubModelName3": null,
+"SubModelNum3": null,
+            "SubModelId4": null,
+            "SubModelName4": null,
+"SubModelNum4": null,
+            "ModelId": 1,
+            "ModelName": "产品类型",
+            "ModelNum": 1
+        }
+    ]
+}
+,
+2016/4/5 9:14:39,create_orders,{"response_id":1,"response_msg":"订单创建成功！"},
+2016/4/5 9:50:50,------,调用开始,
+2016/4/5 9:50:50,收到数据,{
+    "request_id": "get_orders_list",
+    "token": "",
+    "userType": "1",
+    "userLoginId": "15156056291",
+    "orderStatus": ""
+}
+
+,
+2016/4/5 9:50:50,get_orders_list,{"response_id":1,"response_msg":"订单信息获取成功！","orders_info":[{"OrderId":11,"ProjectName":"美的空调安装项目","USERNAME":"15156056291","Address":"诺坎普","CreateDate":"2016-04-05T09:13:36.4230000+08:00","OrderStatus":null,"StatusFlag":null,"StarLevel":null},{"OrderId":12,"ProjectName":"美的空调安装项目","USERNAME":"15156056291","Address":"诺坎普","CreateDate":"2016-04-05T09:14:37.4100000+08:00","OrderStatus":null,"StatusFlag":null,"StarLevel":null},{"OrderId":13,"ProjectName":"美的空调安装项目","USERNAME":"15156056291","Address":"诺坎普","CreateDate":"2016-04-05T09:14:37.9170000+08:00","OrderStatus":null,"StatusFlag":null,"StarLevel":null},{"OrderId":14,"ProjectName":"美的空调安装项目","USERNAME":"15156056291","Address":"诺坎普","CreateDate":"2016-04-05T09:14:38.4530000+08:00","OrderStatus":null,"StatusFlag":null,"StarLevel":null},{"OrderId":15,"ProjectName":"美的空调安装项目","USERNAME":"15156056291","Address":"诺坎普","CreateDate":"2016-04-05T09:14:39.1600000+08:00","OrderStatus":null,"StatusFlag":null,"StarLevel":null}]},

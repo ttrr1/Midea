@@ -1,0 +1,85 @@
+
+/*tab切换*/
+jQuery.Huitab =function(tabBar,tabCon,class_name,tabEvent,i){
+    var $tab_menu=$(tabBar);
+    // 初始化操作
+    $tab_menu.removeClass(class_name);
+    $(tabBar).eq(i).addClass(class_name);
+    $(tabCon).hide();
+    $(tabCon).eq(i).show();
+        
+    $tab_menu.bind(tabEvent,function(){
+        $tab_menu.removeClass(class_name);
+        $(this).addClass(class_name);
+        var index=$tab_menu.index(this);
+        $(tabCon).hide();
+        $(tabCon).eq(index).show();
+    });
+}
+/*添加收藏
+<a title="收藏本站" href="javascript:addFavoritepage(0);">收藏本站</a>
+*/
+var webName ="同里湖大酒店";
+var webSite ="http://www.tonglilakeviewhotel.com";
+/*收藏主站*/
+function addFavorite(){try{window.external.addFavorite(webSite,webName);}catch(e){try{window.sidebar.addPanel(webName,webSite,"");}catch(e){alert("加入收藏失败，请使用Ctrl+D进行添加");}}}
+
+/*弹窗*/
+    function showweixin(){
+        document.getElementById("overDiv").style.display = "block" ;
+        document.getElementById("dlDiv").style.display = "block" ;
+    }
+    function closeweixin(){
+        document.getElementById("overDiv").style.display = "none" ;
+        document.getElementById("dlDiv").style.display = "none" ;
+    }
+	
+
+
+
+
+$(document).ready(function($){
+    $(".totallik").mouseover(function(){
+        $(".totalbox ").css("display","block");
+    }); 
+    $(".totallik").mouseleave(function(){
+        $(".totalbox ").css("display","none");
+    }); 
+});
+
+/*menu*/
+$(".dropDown").hover(function(){$(this).addClass("hover");},function(){$(this).removeClass("hover");});
+$(".dropDown-menu  a").click(function(){$(".dropDown").removeClass('open');});
+$(".dropDown_hover").hover(function(){$(this).addClass("open");},function(){$(this).removeClass("open");});
+
+
+/*折叠*/
+jQuery.Huifold = function(obj,obj_c,speed,obj_type,Event){
+    if(obj_type == 2){
+        $(obj+":first").find("b").html("-");
+        $(obj_c+":first").show();
+    }
+    $(obj).bind(Event,function(){
+        if($(this).next().is(":visible")){
+            if(obj_type == 2){
+                return false;
+            }
+            else{
+                $(this).next().slideUp(speed).end().removeClass("selected");
+                $(this).find("b").html("");
+            }
+        }
+        else{
+            if(obj_type == 3){
+                $(this).next().slideDown(speed).end().addClass("selected");
+                $(this).find("b").html("");
+            }else{
+                $(obj_c).slideUp(speed);
+                $(obj).removeClass("selected");
+                $(obj).find("b").html("");
+                $(this).next().slideDown(speed).end().addClass("selected");
+                $(this).find("b").html("");
+            }
+        }
+    });
+}

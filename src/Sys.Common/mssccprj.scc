@@ -1,0 +1,5 @@
+SCC = This is a Source Code Control file
+
+[Sys.Common.csproj]
+SCC_Aux_Path = "\\192.168.1.159\BBZX_Vss"
+SCC_Project_Name = "$/System.root/System/Sys.Common", FAAAAAAA

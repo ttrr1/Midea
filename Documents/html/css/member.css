@@ -1,0 +1,118 @@
+/* ----------------------------网站公共样式部分------------------------------------------  */
+
+body {text-align: left;font-family:"华康圆体W3(P)" , arial;margin:auto;padding:0;font-size:1em;color:#666;background-color: #f0f0f0;}
+
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,li,form,img,dl,dt,dd,table,th,td,blockquote,fieldset,div,strong,label,em{margin:0;padding:0;border:0;}
+
+li,dl{list-style-type:none;}
+
+h1{font-size:12px; color:#FF0000;font-weight:normal; float:left;}
+h2,h3,h4,h5,h6,{ font-size:16px;font-weight:bold;text-align:center;margin:0; padding:0;}
+
+
+p{margin:1em 0;font-size:1.0em;line-height:1.2em;}
+.list1{padding:0.5em 1em;background:#fff;}
+.list1 p span{color:#555;}
+.list1 p a{margin-left:10px;margin-top:5px;}
+.list1 p{color:#999;}
+
+.list3{height:5em;padding:0.5em 0.5em;background:#fafafa;border-bottom:1px solid #d3d3d3;}
+.list3 em{margin:5px 5px 0 0;}
+
+.xingming{float:left;margin:1em 0 0 0.2em;}
+.xingming h3{color:#333;font-size:1em;}
+	
+	
+.list4{border-top:1px solid #d1d1d1;padding:0.5em 1em;margin-top:1em;}
+.list4 p span{color:#555;}
+.list4 p{color:#999;line-height:2em;}
+
+/*--------会议日程----------*/
+.point-time {
+  content: "";
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  top: 17px;
+  left: 5%;
+  background: #d2d2d2;
+  margin-left: -6px;
+  border-radius: 50%;
+  
+}
+
+
+.point-white {
+  background-color:#ffffff;border:1px solid #d2d2d2;box-shadow: 0 0 0 2px #d2d2d2;
+}
+.point-blue {
+  background-color:#ffffff;border:1px solid #2e9cee;box-shadow: 0 0 0 2px #2e9cee;
+}
+
+
+.content {
+  width: 100%;
+  margin: 30px auto;background:#fff;
+}
+.content article {
+  position: relative;
+}
+.content article > h3 {
+  width:auto;
+  height: 20px;
+  line-height: 20px;
+  text-align: left;
+  font-size: 1.4em;
+  color: #fff;
+  padding-left:10px;
+}
+
+.content article > h5 {
+  width:auto;
+  height: 20px;
+  line-height: 20px;
+  text-align: left;
+  font-size: 1.2em;
+  color: #fff;padding-left:10px;
+  
+}
+.content article > h3 span{padding: 10px 0 20px;}
+.content article section {
+  padding: 0 0 17px 0;
+  position: relative;
+}
+.content article section:before {
+  content: "";
+  width: 3px;
+  top: 17px;
+  bottom: -17px;
+  left: 5%;
+  background: #d2d2d2;
+  position: absolute;
+}
+.content article section:last-child:before {
+  display: none;
+}
+
+.content article section aside {
+  color: #999;
+  margin-left: 12%;
+  padding-bottom: 15px;font-size:14px;
+}
+.content article section aside p{margin:0;display:inline-block;position:relative;width:100%;}
+.content article section aside .things > i{width:15px;height:15px;display:block;float:left;margin:0px 5px 0 0;}
+.content article section aside .things > span{margin:2px 5px 0 0; color:#666;line-height:30px;}
+
+.content article section aside .brief span{display:block;margin:5px 5px 0 0; }
+
+.content article section aside .brief span img{width:30%;margin:0 2px;height:auto;}
+.content article section .brief {margin-top:5px;
+  color: #999;
+}
+.content article section aside .brief b {
+display:block;height:2em;margin-right:2.5em;float:left;
+}
+.content article section aside .brief i {
+float:left; font-style:normal;line-height:2em;
+}
+.content article section aside .brief b img{margin-right:5px;margin-top:0.4em;}

@@ -1,0 +1,200 @@
+/* Write your styles */
+
+body{background:#fff;width: 100%;height: 100%;min-width: 320px;-webkit-tap-highlight-color:transparent; }
+a,a:hover{color: #333;}
+a:focus,.f-main,a.f-main{color: #b4985b}
+.c-orange{color:#f4911c}
+.c-fff{color: #fff}
+.f-green {color: #57b550;}
+.c-grey{color: #999}
+.c-red{color: #97200f;}
+.bgwhite{background: #fff}
+.bggrey{background: #edefee}
+.bgblack{background: #000}
+.am-header-default{background-color: #fff; color: #333;padding: 0;border-bottom:1px solid #ddd;}
+
+ul,li,dl,dd{list-style: none;padding-left: 0}
+.mt10{margin-top: 10px}
+.mt20{margin-top: 20px}
+.mr10{margin-right:10px;}
+.mb10{margin-bottom:10px;}
+
+/*iconfont*/
+@font-face {font-family: "iconfont";
+    src: url('../fonts/iconfont.eot'); /* IE9*/
+    src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../fonts/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../fonts/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+    font-family:"iconfont" !important;
+    font-size:24px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+.icon-34fuwuchuang:before { content: "\e649"; }
+.icon-shouye:before { content: "\f029d"; }
+.icon-taocan:before { content: "\e613"; }
+.icon-canting:before { content: "\e69a"; }
+.icon-huiyishi:before { content: "\e619"; }
+.icon-hunlichangdi:before { content: "\e618"; }
+.icon-xiuxian:before { content: "\e672"; }
+.icon-chaxun:before { content: "\e68d"; }
+
+/*header*/
+.index-header .am-header-icon {color: #b4985b}
+.am-header .am-header-logo{width: 60%; margin: 0 20%;}
+.am-header .am-header-logo img{max-width:100%;max-height: 40px; vertical-align: top; padding-top:8px}
+.am-header-default .am-header-title{color: #333}
+.am-header-default .am-header-nav a{color: #b4985b;font-size: 150%}
+
+.am-menu-dropdown1 .am-menu-nav > li > a{font-size: 14px;}
+.am-menu-dropdown1 .am-menu-sub a{font-size: 14px}
+.am-menu-dropdown1 .am-menu-nav > li.c > a{background-color:#ccac66 }
+/*index*/
+.indexlogo{width:50%;margin:0px auto;padding:1em 0; text-align:center}
+.indexlogo img{width:80%; max-width:257px;}
+.indexlink li{padding:.5em}
+.indexlink li:nth-child(2n){text-align:left; }
+.indexlink li:nth-child(2n+1){text-align:right}
+.indexlink li img{width:95%; max-width:260px;border:.325em solid #907a3e;}
+.am-footer{font-weight:normal}
+.am-footer-index,.am-footer-index a{color:#fff;}
+.am-footer .am-footer-select{color:#B4985B}
+.am-footer-index .am-footer-divider{color:#666;padding:0 .3em}
+.am-footer .am-footer-switch{font-size:1.2rem; margin:0px auto;margin:0 50px}
+.am-footer .am-footer-switch a{font-weight:normal;}
+.am-footer-default{background:#f5f5f5;border-top:1px solid #ddd; margin-top: 20px; width:100%; position: absolute; bottom: 50px}
+.am-footer-default .am-footer-divider{color:#ccc}
+.am-footer .am-footer-back{position:absolute;right:10px;top:10px;padding:.2rem .8rem;font-size:3rem; font-weight:300;color:#ccc;line-height:2rem;background:#f5f5f5;border:1px solid #ddd}
+
+
+.mainbody{width:100%;padding-bottom:70px;}
+
+
+.am-panel-index{width: 100%;background: #fff;border-top:0px solid #c4c9cd;}
+.am-panel-index .am-panel-index-hd{border-bottom:1px solid #e4e4e4; font-size: 1.6rem;line-height:1.625rem;color: #333;margin:1.25rem 1rem .5rem 1rem;padding-bottom:1rem;}
+.am-panel-index .am-panel-index-bd{width: 100%; border-bottom:0px solid #c4c9cd;}
+.am-panel-index .am-panel-index-bd .am-list{margin: 0}
+.am-panel-index .am-panel-index-bd .am-list > li{border: 0;padding:.5rem 0}
+.am-panel-index .am-panel-index-bd .am-list-thumb a{width: 100%; height: 100%; display: inline-block}
+.am-panel-index .am-panel-index-bd .am-list-thumb img{width: 100%;}
+
+.am-panel-index .am-ms-list,.am-panel-index .am-ms-list li{padding:0; list-style: none}
+.am-panel-index .am-ms-list li{border:1px solid #e4e4e4;margin:15px 10px}
+.am-panel-index .am-ms-list li h3{margin: 0;padding:.5rem 0; font-size: 14px;font-weight: normal; overflow: hidden;}
+.am-panel-index .am-ms-list li .am-list-item-text{padding:0 5px 5px;font-size: 12px}
+.am-divider-ms{height:1px;border:none;margin:0rem auto;overflow:hidden;background-color:#c4c9cd;clear:both}
+
+.index-menu{background: #fff;padding:2rem 0 .625rem 0;margin-bottom: 1rem;z-index: 1;border-bottom: 1px solid #c4c9cd}
+.index-menu li{ text-align: center; }
+.index-menu li span{color: #b4985b}
+.index-menu li .index-menu-title{line-height:2.5rem;color: #333;font-size: 1.425rem;padding-top: .5rem}
+.index-menu li .am-icon-md::before {
+    font-size: 180%;
+    vertical-align: -16%;
+}
+.index-menu li a .iconfont{font-size: 32px}
+.am-index-cp{padding-bottom:40px;}
+
+/*footer*/
+.footerbar .am-navbar-nav li.c,.footerbar .am-navbar-nav li:active{background: #ccac66 }
+.footerbar a{color: #fff}
+.footerbar .am-navbar-nav{padding: 0}
+.footerbar .iconfont{font-size: 24px; line-height: 30px}
+/* 安卓手机端Icon不能正确显示的处理办法：*/
+[class*='am-icon-']:before {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+/*list*/
+.am-pagination>li>a, .am-pagination>li>span{font-size:1.4rem}
+.am-pagination-select > li > a,.am-pagination-select .am-pagination-select select{background-color: #fff;border:1px solid #ddd;font-size:1.4rem}
+.am-paragraph .am-article-bd{color: #666}
+.am-paragraph .am-article-hd{border-bottom: 1px solid #c4c9cd}
+.am-panel-index .am-slider-c3 .am-slider-desc{background: none}
+.am-paragraph-default img.dininglogo{border: 0}
+.am-gallery-bordered .am-gallery-item{border: 1px solid #e4e4e4;box-shadow: 0 0 3px #ddd;}
+.am-panel-index  .am-article-title{font-size: 2.4rem}
+.am-panel-index .am-paragraph .am-article-lead{overflow: hidden; line-height: 30px}
+.am-panel-index .am-paragraph .am-article-lead .am-btn{font-size: 14px;padding:5px 20px}
+.am-panel-index .am-panel-index-bd .am-form-group  .code {
+    border: 1px solid #ccc;
+    display: inline-block;
+    float: left;
+    margin-left: 10px;
+}
+.am-panel-index .am-form .am-form-group{display: inline-block;width: 100%; margin-bottom: .5rem}
+.am-panel-index .am-form .am-form-group .code img{height: 34px;}
+.am-panel-index .am-form .am-form-group .am-form-field{font-size: 14px}
+
+/*booking*/
+.am-room-search{background: #f5f5f5;border-top: 1px solid #ddd}
+.am-room-search .am-menu-nav{padding: 0}
+.am-room-search .am-menu-default li.am-parent{position: relative;font-size: 1.4rem; width: 33%}
+.am-room-search .am-menu-default .am-menu-sub{background: #B4985B; font-size: 1.4rem; color: #fff}
+.am-room-search .am-room-search-type .am-menu-sub{width:290%}
+.am-room-search .am-menu-default .am-menu-nav > .am-parent > a::before{color: #B4985B}
+.am-room-search .am-menu-default .am-menu-nav > .am-parent.am-open > a{color: #000}
+.am-room-search .am-menu-default .am-menu-nav .am-menu-sub  a{color: #fff}
+
+
+.li-contain {
+	padding: 0;
+	width: 100%;
+}
+.hotel-lists { padding: 0px 10px; list-style: none}
+.hotel-lists .list-item {
+	list-style: none;
+	padding: 15px 0 15px 93px;
+	background: #fff url("../../i/default.png") no-repeat;
+	background-size: 44px 48px;
+	background-position: 22px 20px;
+	border-bottom: 1px solid #ddd;
+	overflow:hidden
+}
+.hotel-lists .list-item .list-item-img { float: left; width: 93px;height: 95px; margin-left: -93px;border: 0;}
+.hotel-lists .list-item h3 {
+	display: -webkit-box;
+	font-size: 18px;
+	font-weight: 500;
+	color: #000;
+	line-height: 1.6;
+	-webkit-line-clamp: 1;
+	padding: 4px 0 2px 10px;
+	margin: 0;
+	white-space: normal;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+.hotel-lists .list-content {display: -webkit-box;position: relative;padding: 0 10px;}
+.hotel-lists .list-content1 {width: 59%; float: left}
+.hotel-lists .list-content1,.hotel-lists  .list-content2,.hotel-lists  .list-content3 {position: relative; margin: 0; color: #666;  font-size: 12px; height: 20px; display: inline-block}
+.hotel-lists .list-content1 .rating { margin-right: 8px; font-size: 12px;color: #6daeee;font-weight: bold;}
+.hotel-lists .list-content1+.list-content2 {  width: 41%; float: right; padding-right: 10px}
+.hotel-lists .list-content2 { top: -2px;text-align: right;  width: 100%;}
+.hotel-lists .list-content3 {width: 100%;}
+.hotel-lists .base-price.meta-price { line-height: 18px;}
+.hotel-lists .base-price { font-size: 12px; line-height: 24px;}
+.hotel-lists .base-price dfn { vertical-align: 4px;  color: #a4afc6;}
+.hotel-lists .base-price b {font-size: 18px;color: #97200f;font-weight: normal;position: relative;}
+.hotel-lists .list-content  .btn-order{position:absolute;right:10px;top:15px; font-size: 1.4rem;padding: 5px 20px}
+
+
+.mainbody .am-article .am-article-bd img{max-width:100%}
+.mainbody  .mymsg .am-list > li{border-width:0 0 1px 0;background:none}
+@media screen and (max-width: 359px ){
+    html {
+        font-size: 10px;
+    }
+}
+
+

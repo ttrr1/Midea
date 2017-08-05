@@ -1,0 +1,14 @@
+﻿* { margin:0; padding:0;}
+body { font-size:12px; color:#fff;background:url(/manage/images/dl_02.gif) repeat-x;}
+.vm { vertical-align:middle;}
+
+.ctn { width:427px;height:360px; background:url(/manage/images/dl_05.jpg) left center no-repeat; margin:77px auto 70px;padding:130px 0 0px 95px;}
+
+.ctn td { font-size:14px; font-weight:bold; line-height:31px; padding:12px 0;}
+.ctn td input{ width:190px; height:31px; line-height:31px; border:0;background:url(/manage/images/dl2_03.jpg) left center no-repeat;}
+.ctn td input.btn { width:109px; height:32px; color:#fff; background:none;}
+.ctn td input.bg {background:url(/manage/images/dl_06.gif) left center no-repeat;}
+.ctn td input.w110 { width:113px; background:url(/manage/images/dl2_04.jpg) no-repeat;}
+.ctn tr.dp td { line-height:22px; height:25px; font-size:12px; font-weight:100; padding:0;}
+.dpl { display:none;}
+.footer { width:380px; margin:0 auto; line-height:25px; text-align:left;  padding:22px 0 15px;}

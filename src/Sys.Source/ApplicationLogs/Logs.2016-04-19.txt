@@ -1,0 +1,174 @@
+2016/4/19 9:34:28,------,调用开始,
+2016/4/19 9:34:28,收到数据,{
+    "request_id": "get_orders_list",
+    "token": "",
+    "userType": "1",
+    "userLoginId": "13033188760",
+    "orderStatus": "",
+    "pageIndex": 1,
+    "pageSize": 5
+}
+,
+2016/4/19 9:34:30,get_orders_list,{"response_id":1,"response_msg":"订单信息获取成功！","orders_info":[{"OrderId":5,"ProjectName":"美的空调安装项目","USERNAME":"13033188760","Address":"诺坎普","CreateDate":"2016-03-31T10:01:52.2130000+08:00","OrderStatus":"4","StatusFlag":1,"StarLevel":"5.000000","RowNumber":6,"TOTAL_COUNT":44},{"OrderId":5,"ProjectName":"美的空调安装项目","USERNAME":"13033188760","Address":"诺坎普","CreateDate":"2016-03-31T10:01:52.2130000+08:00","OrderStatus":"4","StatusFlag":1,"StarLevel":"5.000000","RowNumber":7,"TOTAL_COUNT":44},{"OrderId":5,"ProjectName":"美的空调安装项目","USERNAME":"13033188760","Address":"诺坎普","CreateDate":"2016-03-31T10:01:52.2130000+08:00","OrderStatus":"4","StatusFlag":1,"StarLevel":"3.0","RowNumber":8,"TOTAL_COUNT":44},{"OrderId":5,"ProjectName":"美的空调安装项目","USERNAME":"13033188760","Address":"诺坎普","CreateDate":"2016-03-31T10:01:52.2130000+08:00","OrderStatus":"4","StatusFlag":1,"StarLevel":"3.0","RowNumber":9,"TOTAL_COUNT":44},{"OrderId":5,"ProjectName":"美的空调安装项目","USERNAME":"13033188760","Address":"诺坎普","CreateDate":"2016-03-31T10:01:52.2130000+08:00","OrderStatus":"4","StatusFlag":1,"StarLevel":"4.0","RowNumber":10,"TOTAL_COUNT":44}]},
+2016/4/19 9:36:26,------,调用开始,
+2016/4/19 9:36:26,收到数据,{
+    "request_id": "get_orders_list",
+    "token": "",
+    "userType": "1",
+    "userLoginId": "13033188760",
+    "orderStatus": "",
+    "pageIndex": 1,
+    "pageSize": 5
+}
+,
+2016/4/19 9:36:26,get_orders_list,{"response_id":1,"response_msg":"订单信息获取成功！","orders_info":[{"OrderId":5,"ProjectName":"美的空调安装项目","USERNAME":"13033188760","Address":"诺坎普","CreateDate":"2016-03-31T10:01:52.2130000+08:00","OrderStatus":"4","StatusFlag":1,"StarLevel":"5.000000","RowNumber":6,"TOTAL_COUNT":44},{"OrderId":5,"ProjectName":"美的空调安装项目","USERNAME":"13033188760","Address":"诺坎普","CreateDate":"2016-03-31T10:01:52.2130000+08:00","OrderStatus":"4","StatusFlag":1,"StarLevel":"5.000000","RowNumber":7,"TOTAL_COUNT":44},{"OrderId":5,"ProjectName":"美的空调安装项目","USERNAME":"13033188760","Address":"诺坎普","CreateDate":"2016-03-31T10:01:52.2130000+08:00","OrderStatus":"4","StatusFlag":1,"StarLevel":"3.0","RowNumber":8,"TOTAL_COUNT":44},{"OrderId":5,"ProjectName":"美的空调安装项目","USERNAME":"13033188760","Address":"诺坎普","CreateDate":"2016-03-31T10:01:52.2130000+08:00","OrderStatus":"4","StatusFlag":1,"StarLevel":"3.0","RowNumber":9,"TOTAL_COUNT":44},{"OrderId":5,"ProjectName":"美的空调安装项目","USERNAME":"13033188760","Address":"诺坎普","CreateDate":"2016-03-31T10:01:52.2130000+08:00","OrderStatus":"4","StatusFlag":1,"StarLevel":"4.0","RowNumber":10,"TOTAL_COUNT":44}]},
+2016/4/19 9:36:33,------,调用开始,
+2016/4/19 9:36:33,收到数据,{
+    "request_id": "get_orders_list",
+    "token": "",
+    "userType": "1",
+    "userLoginId": "13033188760",
+    "orderStatus": "",
+    "pageIndex": 1,
+    "pageSize": 5
+}
+,
+2016/4/19 9:36:33,get_orders_list,{"response_id":1,"response_msg":"订单信息获取成功！","orders_info":[{"OrderId":5,"ProjectName":"美的空调安装项目","USERNAME":"13033188760","Address":"诺坎普","CreateDate":"2016-03-31T10:01:52.2130000+08:00","OrderStatus":"4","StatusFlag":1,"StarLevel":"5.000000","RowNumber":6,"TOTAL_COUNT":44},{"OrderId":5,"ProjectName":"美的空调安装项目","USERNAME":"13033188760","Address":"诺坎普","CreateDate":"2016-03-31T10:01:52.2130000+08:00","OrderStatus":"4","StatusFlag":1,"StarLevel":"5.000000","RowNumber":7,"TOTAL_COUNT":44},{"OrderId":5,"ProjectName":"美的空调安装项目","USERNAME":"13033188760","Address":"诺坎普","CreateDate":"2016-03-31T10:01:52.2130000+08:00","OrderStatus":"4","StatusFlag":1,"StarLevel":"3.0","RowNumber":8,"TOTAL_COUNT":44},{"OrderId":5,"ProjectName":"美的空调安装项目","USERNAME":"13033188760","Address":"诺坎普","CreateDate":"2016-03-31T10:01:52.2130000+08:00","OrderStatus":"4","StatusFlag":1,"StarLevel":"3.0","RowNumber":9,"TOTAL_COUNT":44},{"OrderId":5,"ProjectName":"美的空调安装项目","USERNAME":"13033188760","Address":"诺坎普","CreateDate":"2016-03-31T10:01:52.2130000+08:00","OrderStatus":"4","StatusFlag":1,"StarLevel":"4.0","RowNumber":10,"TOTAL_COUNT":44}]},
+2016/4/19 9:36:48,------,调用开始,
+2016/4/19 9:36:52,收到数据,{
+    "request_id": "get_orders_list",
+    "token": "",
+    "userType": "1",
+    "userLoginId": "13033188760",
+    "orderStatus": "",
+    "pageIndex": 1,
+    "pageSize": 5
+}
+,
+2016/4/19 9:39:22,get_orders_list,{"response_id":1,"response_msg":"订单信息获取成功！","orders_info":[{"OrderId":5,"ProjectName":"美的空调安装项目","USERNAME":"13033188760","Address":"诺坎普","CreateDate":"2016-03-31T10:01:52.2130000+08:00","OrderStatus":"4","StatusFlag":1,"StarLevel":"5.000000","RowNumber":6,"TOTAL_COUNT":44},{"OrderId":5,"ProjectName":"美的空调安装项目","USERNAME":"13033188760","Address":"诺坎普","CreateDate":"2016-03-31T10:01:52.2130000+08:00","OrderStatus":"4","StatusFlag":1,"StarLevel":"5.000000","RowNumber":7,"TOTAL_COUNT":44},{"OrderId":5,"ProjectName":"美的空调安装项目","USERNAME":"13033188760","Address":"诺坎普","CreateDate":"2016-03-31T10:01:52.2130000+08:00","OrderStatus":"4","StatusFlag":1,"StarLevel":"3.0","RowNumber":8,"TOTAL_COUNT":44},{"OrderId":5,"ProjectName":"美的空调安装项目","USERNAME":"13033188760","Address":"诺坎普","CreateDate":"2016-03-31T10:01:52.2130000+08:00","OrderStatus":"4","StatusFlag":1,"StarLevel":"3.0","RowNumber":9,"TOTAL_COUNT":44},{"OrderId":5,"ProjectName":"美的空调安装项目","USERNAME":"13033188760","Address":"诺坎普","CreateDate":"2016-03-31T10:01:52.2130000+08:00","OrderStatus":"4","StatusFlag":1,"StarLevel":"4.0","RowNumber":10,"TOTAL_COUNT":44}]},
+2016/4/19 9:41:48,------,调用开始,
+2016/4/19 9:41:48,收到数据,{
+    "request_id": "get_orders_list",
+    "token": "",
+    "userType": "1",
+    "userLoginId": "13033188760",
+    "orderStatus": "",
+    "pageIndex": 0,
+    "pageSize": 5
+}
+,
+2016/4/19 9:41:48,get_orders_list,{"response_id":1,"response_msg":"订单信息获取成功！","orders_info":[{"OrderId":10,"ProjectName":"美的空调安装项目","USERNAME":"13033188760","Address":"诺坎普","CreateDate":"2016-03-31T10:01:57.0000000+08:00","OrderStatus":null,"StatusFlag":null,"StarLevel":null,"RowNumber":1,"TOTAL_COUNT":44},{"OrderId":9,"ProjectName":"美的空调安装项目","USERNAME":"13033188760","Address":"诺坎普","CreateDate":"2016-03-31T10:01:56.9700000+08:00","OrderStatus":null,"StatusFlag":null,"StarLevel":null,"RowNumber":2,"TOTAL_COUNT":44},{"OrderId":8,"ProjectName":"美的空调安装项目","USERNAME":"13033188760","Address":"诺坎普","CreateDate":"2016-03-31T10:01:56.2300000+08:00","OrderStatus":null,"StatusFlag":null,"StarLevel":null,"RowNumber":3,"TOTAL_COUNT":44},{"OrderId":7,"ProjectName":"美的空调安装项目","USERNAME":"13033188760","Address":"诺坎普","CreateDate":"2016-03-31T10:01:55.3170000+08:00","OrderStatus":null,"StatusFlag":null,"StarLevel":null,"RowNumber":4,"TOTAL_COUNT":44},{"OrderId":6,"ProjectName":"美的空调安装项目","USERNAME":"13033188760","Address":"诺坎普","CreateDate":"2016-03-31T10:01:53.1200000+08:00","OrderStatus":null,"StatusFlag":null,"StarLevel":null,"RowNumber":5,"TOTAL_COUNT":44}]},
+2016/4/19 9:43:48,------,调用开始,
+2016/4/19 9:43:48,收到数据,{
+    "request_id": "get_orders_list",
+    "token": "",
+    "userType": "1",
+    "userLoginId": "13033188760",
+    "orderStatus": "",
+    "pageIndex": 0,
+    "pageSize": 5
+}
+,
+2016/4/19 9:44:03,get_orders_list,{"response_id":1,"response_msg":"订单信息获取成功！","orders_info":[{"OrderId":10,"ProjectName":"美的空调安装项目","USERNAME":"13033188760","Address":"诺坎普","CreateDate":"2016-03-31T10:01:57.0000000+08:00","OrderStatus":null,"StatusFlag":null,"StarLevel":null,"RowNumber":1,"TOTAL_COUNT":44},{"OrderId":9,"ProjectName":"美的空调安装项目","USERNAME":"13033188760","Address":"诺坎普","CreateDate":"2016-03-31T10:01:56.9700000+08:00","OrderStatus":null,"StatusFlag":null,"StarLevel":null,"RowNumber":2,"TOTAL_COUNT":44},{"OrderId":8,"ProjectName":"美的空调安装项目","USERNAME":"13033188760","Address":"诺坎普","CreateDate":"2016-03-31T10:01:56.2300000+08:00","OrderStatus":null,"StatusFlag":null,"StarLevel":null,"RowNumber":3,"TOTAL_COUNT":44},{"OrderId":7,"ProjectName":"美的空调安装项目","USERNAME":"13033188760","Address":"诺坎普","CreateDate":"2016-03-31T10:01:55.3170000+08:00","OrderStatus":null,"StatusFlag":null,"StarLevel":null,"RowNumber":4,"TOTAL_COUNT":44},{"OrderId":6,"ProjectName":"美的空调安装项目","USERNAME":"13033188760","Address":"诺坎普","CreateDate":"2016-03-31T10:01:53.1200000+08:00","OrderStatus":null,"StatusFlag":null,"StarLevel":null,"RowNumber":5,"TOTAL_COUNT":44}]},
+2016/4/19 9:44:21,------,调用开始,
+2016/4/19 9:44:21,收到数据,{
+    "request_id": "get_orders_list",
+    "token": "",
+    "userType": "1",
+    "userLoginId": "13033188760",
+    "orderStatus": "",
+    "pageIndex": 0,
+    "pageSize": 5
+}
+,
+2016/4/19 9:44:22,get_orders_list,{"response_id":1,"response_msg":"订单信息获取成功！","orders_info":[{"OrderId":10,"ProjectName":"美的空调安装项目","USERNAME":"13033188760","Address":"诺坎普","CreateDate":"2016-03-31T10:01:57.0000000+08:00","OrderStatus":null,"StatusFlag":null,"StarLevel":null,"RowNumber":1,"TOTAL_COUNT":44},{"OrderId":9,"ProjectName":"美的空调安装项目","USERNAME":"13033188760","Address":"诺坎普","CreateDate":"2016-03-31T10:01:56.9700000+08:00","OrderStatus":null,"StatusFlag":null,"StarLevel":null,"RowNumber":2,"TOTAL_COUNT":44},{"OrderId":8,"ProjectName":"美的空调安装项目","USERNAME":"13033188760","Address":"诺坎普","CreateDate":"2016-03-31T10:01:56.2300000+08:00","OrderStatus":null,"StatusFlag":null,"StarLevel":null,"RowNumber":3,"TOTAL_COUNT":44},{"OrderId":7,"ProjectName":"美的空调安装项目","USERNAME":"13033188760","Address":"诺坎普","CreateDate":"2016-03-31T10:01:55.3170000+08:00","OrderStatus":null,"StatusFlag":null,"StarLevel":null,"RowNumber":4,"TOTAL_COUNT":44},{"OrderId":6,"ProjectName":"美的空调安装项目","USERNAME":"13033188760","Address":"诺坎普","CreateDate":"2016-03-31T10:01:53.1200000+08:00","OrderStatus":null,"StatusFlag":null,"StarLevel":null,"RowNumber":5,"TOTAL_COUNT":44}]},
+2016/4/19 9:44:41,------,调用开始,
+2016/4/19 9:44:41,收到数据,{
+    "request_id": "get_orders_list",
+    "token": "",
+    "userType": "1",
+    "userLoginId": "13033188760",
+    "orderStatus": "",
+    "pageIndex": 0,
+    "pageSize": 5
+}
+,
+2016/4/19 9:44:42,get_orders_list,{"response_id":1,"response_msg":"订单信息获取成功！","orders_info":[{"OrderId":10,"ProjectName":"美的空调安装项目","USERNAME":"13033188760","Address":"诺坎普","CreateDate":"2016-03-31T10:01:57.0000000+08:00","OrderStatus":null,"StatusFlag":null,"StarLevel":null,"RowNumber":1,"TOTAL_COUNT":44},{"OrderId":9,"ProjectName":"美的空调安装项目","USERNAME":"13033188760","Address":"诺坎普","CreateDate":"2016-03-31T10:01:56.9700000+08:00","OrderStatus":null,"StatusFlag":null,"StarLevel":null,"RowNumber":2,"TOTAL_COUNT":44},{"OrderId":8,"ProjectName":"美的空调安装项目","USERNAME":"13033188760","Address":"诺坎普","CreateDate":"2016-03-31T10:01:56.2300000+08:00","OrderStatus":null,"StatusFlag":null,"StarLevel":null,"RowNumber":3,"TOTAL_COUNT":44},{"OrderId":7,"ProjectName":"美的空调安装项目","USERNAME":"13033188760","Address":"诺坎普","CreateDate":"2016-03-31T10:01:55.3170000+08:00","OrderStatus":null,"StatusFlag":null,"StarLevel":null,"RowNumber":4,"TOTAL_COUNT":44},{"OrderId":6,"ProjectName":"美的空调安装项目","USERNAME":"13033188760","Address":"诺坎普","CreateDate":"2016-03-31T10:01:53.1200000+08:00","OrderStatus":null,"StatusFlag":null,"StarLevel":null,"RowNumber":5,"TOTAL_COUNT":44}]},
+2016/4/19 9:44:58,------,调用开始,
+2016/4/19 9:44:58,收到数据,{
+    "request_id": "get_orders_list",
+    "token": "",
+    "userType": "1",
+    "userLoginId": "13033188760",
+    "orderStatus": "",
+    "pageIndex": 0,
+    "pageSize": 5
+}
+,
+2016/4/19 9:51:21,get_orders_list,{"response_id":1,"response_msg":"订单信息获取成功！","orders_info":[{"OrderId":10,"ProjectName":"美的空调安装项目","USERNAME":"13033188760","Address":"诺坎普","CreateDate":"2016-03-31T10:01:57.0000000+08:00","OrderStatus":null,"StatusFlag":null,"StarLevel":null,"RowNumber":1,"TOTAL_COUNT":9},{"OrderId":9,"ProjectName":"美的空调安装项目","USERNAME":"13033188760","Address":"诺坎普","CreateDate":"2016-03-31T10:01:56.9700000+08:00","OrderStatus":null,"StatusFlag":null,"StarLevel":null,"RowNumber":2,"TOTAL_COUNT":9},{"OrderId":8,"ProjectName":"美的空调安装项目","USERNAME":"13033188760","Address":"诺坎普","CreateDate":"2016-03-31T10:01:56.2300000+08:00","OrderStatus":null,"StatusFlag":null,"StarLevel":null,"RowNumber":3,"TOTAL_COUNT":9},{"OrderId":7,"ProjectName":"美的空调安装项目","USERNAME":"13033188760","Address":"诺坎普","CreateDate":"2016-03-31T10:01:55.3170000+08:00","OrderStatus":null,"StatusFlag":null,"StarLevel":null,"RowNumber":4,"TOTAL_COUNT":9},{"OrderId":6,"ProjectName":"美的空调安装项目","USERNAME":"13033188760","Address":"诺坎普","CreateDate":"2016-03-31T10:01:53.1200000+08:00","OrderStatus":null,"StatusFlag":null,"StarLevel":null,"RowNumber":5,"TOTAL_COUNT":9}]},
+2016/4/19 9:53:10,------,调用开始,
+2016/4/19 9:53:10,收到数据,{
+    "request_id": "get_orders_list",
+    "token": "",
+    "userType": "1",
+    "userLoginId": "13033188760",
+    "orderStatus": "",
+    "pageIndex": 0,
+    "pageSize": 5
+}
+,
+2016/4/19 9:53:35,get_orders_list,{"response_id":1,"response_msg":"订单信息获取成功！","orders_info":[{"OrderId":10,"ProjectName":"美的空调安装项目","USERNAME":"13033188760","Address":"诺坎普","CreateDate":"2016-03-31T10:01:57.0000000+08:00","OrderStatus":null,"StatusFlag":null,"StarLevel":null,"RowNumber":1,"TOTAL_COUNT":9},{"OrderId":9,"ProjectName":"美的空调安装项目","USERNAME":"13033188760","Address":"诺坎普","CreateDate":"2016-03-31T10:01:56.9700000+08:00","OrderStatus":null,"StatusFlag":null,"StarLevel":null,"RowNumber":2,"TOTAL_COUNT":9},{"OrderId":8,"ProjectName":"美的空调安装项目","USERNAME":"13033188760","Address":"诺坎普","CreateDate":"2016-03-31T10:01:56.2300000+08:00","OrderStatus":null,"StatusFlag":null,"StarLevel":null,"RowNumber":3,"TOTAL_COUNT":9},{"OrderId":7,"ProjectName":"美的空调安装项目","USERNAME":"13033188760","Address":"诺坎普","CreateDate":"2016-03-31T10:01:55.3170000+08:00","OrderStatus":null,"StatusFlag":null,"StarLevel":null,"RowNumber":4,"TOTAL_COUNT":9},{"OrderId":6,"ProjectName":"美的空调安装项目","USERNAME":"13033188760","Address":"诺坎普","CreateDate":"2016-03-31T10:01:53.1200000+08:00","OrderStatus":null,"StatusFlag":null,"StarLevel":null,"RowNumber":5,"TOTAL_COUNT":9}]},
+2016/4/19 9:54:07,------,调用开始,
+2016/4/19 9:54:07,收到数据,{
+    "request_id": "get_orders_list",
+    "token": "",
+    "userType": "1",
+    "userLoginId": "13033188760",
+    "orderStatus": "",
+    "pageIndex": 1,
+    "pageSize": 5
+}
+,
+2016/4/19 9:54:07,get_orders_list,{"response_id":1,"response_msg":"订单信息获取成功！","orders_info":[{"OrderId":5,"ProjectName":"美的空调安装项目","USERNAME":"13033188760","Address":"诺坎普","CreateDate":"2016-03-31T10:01:52.2130000+08:00","OrderStatus":"4","StatusFlag":1,"StarLevel":null,"RowNumber":6,"TOTAL_COUNT":9},{"OrderId":4,"ProjectName":"美的空调安装项目","USERNAME":"13033188760","Address":"诺坎普","CreateDate":"2016-03-31T10:01:51.3170000+08:00","OrderStatus":null,"StatusFlag":null,"StarLevel":null,"RowNumber":7,"TOTAL_COUNT":9},{"OrderId":3,"ProjectName":"美的空调安装项目","USERNAME":"13033188760","Address":"诺坎普","CreateDate":"2016-03-31T10:01:50.3800000+08:00","OrderStatus":"4","StatusFlag":1,"StarLevel":null,"RowNumber":8,"TOTAL_COUNT":9},{"OrderId":2,"ProjectName":"美的空调安装项目","USERNAME":"13033188760","Address":"诺坎普","CreateDate":"2016-03-31T10:01:45.0670000+08:00","OrderStatus":"4","StatusFlag":1,"StarLevel":null,"RowNumber":9,"TOTAL_COUNT":9}]},
+2016/4/19 9:58:03,------,调用开始,
+2016/4/19 9:58:03,收到数据,{
+    "request_id": "get_orders_list",
+    "token": "",
+    "userType": "1",
+    "userLoginId": "13033188760",
+    "orderStatus": "",
+    "pageIndex": 1,
+    "pageSize": 5
+}
+,
+Time:    2016/4/19 9:58:04
+Action:  get_orders_list
+Source: Sys.Common
+Message: 列名 'OrderId' 不明确。
+列名 'Address' 不明确。
+列名 'CreateDate' 不明确。
+列名 'TOTAL_COUNT' 无效。
+多次为 'T2' 指定了列 'TOTAL_COUNT'。
+StackTrace:    在 Sys.Common.DbHelperSQL.Query(String SQLString, SqlParameter[] cmdParms) 位置 E:\SDW\Midea\src\Sys.Common\DBHelperSQL.cs:行号 783
+   在 Sys.DAL.Orders.GetOrdersList(String orderStatus, String userType, String userId, Int32 pageIndex, Int32 pageSize) 位置 E:\SDW\Midea\src\Sys.Framework\DAL\UserCode\Orders.cs:行号 157
+   在 Sys.BLL.Orders.GetOrdersList(String orderStatus, String userType, String userId, Int32 pageIndex, Int32 pageSize) 位置 E:\SDW\Midea\src\Sys.Framework\BLL\UserCode\Orders.cs:行号 184
+   在 MobileInterface_InterfaceService.GetOrdersList(Dictionary`2 dicParams) 位置 e:\SDW\Midea\src\Sys.Source\MobileInterface\InterfaceService.aspx.cs:行号 384
+   在 MobileInterface_InterfaceService.Page_Load(Object sender, EventArgs e) 位置 e:\SDW\Midea\src\Sys.Source\MobileInterface\InterfaceService.aspx.cs:行号 68
+-----------------------------------------------------------
+
+2016/4/19 9:58:04,get_orders_list,{"response_id":0,"response_msg":"处理异常！"},
+2016/4/19 9:58:19,------,调用开始,
+2016/4/19 9:58:19,收到数据,,
+2016/4/19 9:58:19,,{"CommentId":0,"OrderId":null,"StarLevel":null,"Remark":null,"CreateUserId":null,"CreateDate":null},
+2016/4/19 10:24:21,------,调用开始,
+2016/4/19 10:24:21,收到数据,{
+    "request_id": "get_orders_list",
+    "token": "",
+    "userType": "1",
+    "userLoginId": "13033188760",
+    "orderStatus": "",
+    "pageIndex": 1,
+    "pageSize": 5
+}
+,
+2016/4/19 10:24:21,get_orders_list,{"response_id":1,"response_msg":"订单信息获取成功！","orders_info":[{"OrderId":5,"ProjectName":"美的空调安装项目","USERNAME":"13033188760","Address":"诺坎普","CreateDate":"2016-03-31T10:01:52.2130000+08:00","OrderStatus":"4","StatusFlag":1,"StarLevel":null,"TOTAL_COUNT":9},{"OrderId":4,"ProjectName":"美的空调安装项目","USERNAME":"13033188760","Address":"诺坎普","CreateDate":"2016-03-31T10:01:51.3170000+08:00","OrderStatus":null,"StatusFlag":null,"StarLevel":null,"TOTAL_COUNT":9},{"OrderId":3,"ProjectName":"美的空调安装项目","USERNAME":"13033188760","Address":"诺坎普","CreateDate":"2016-03-31T10:01:50.3800000+08:00","OrderStatus":"4","StatusFlag":1,"StarLevel":null,"TOTAL_COUNT":9},{"OrderId":2,"ProjectName":"美的空调安装项目","USERNAME":"13033188760","Address":"诺坎普","CreateDate":"2016-03-31T10:01:45.0670000+08:00","OrderStatus":"4","StatusFlag":1,"StarLevel":null,"TOTAL_COUNT":9}]},

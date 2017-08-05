@@ -1,0 +1,112 @@
+2016/4/20 13:53:39,update_orderstatus,{"response_id":0,"response_msg":"订单状态不能为之前状态！"},
+2016/4/20 15:36:38,------,调用开始,
+2016/4/20 15:36:38,收到数据,{"request_id":"update_orderstatus","token":"88888888888|7626d3bc9ebd8738885c9ed14155b647","ordersId":"62","orderStatus":"2","staFlag":"1","staMessage":"滚滚滚发的","PicList":""},
+2016/4/20 15:37:39,update_orderstatus,{"CommentId":0,"OrderId":null,"StarLevel":null,"Remark":null,"CreateUserId":null,"CreateDate":null},
+2016/4/20 15:39:16,------,调用开始,
+2016/4/20 15:39:16,收到数据,{"request_id":"update_orderstatus","token":"88888888888|7626d3bc9ebd8738885c9ed14155b647","ordersId":"62","orderStatus":"2","staFlag":"1","staMessage":"滚滚滚发的","PicList":""},
+2016/4/20 15:39:16,update_orderstatus,{"response_id":0,"response_msg":"订单状态不能为之前状态！"},
+2016/4/20 15:52:49,------,调用开始,
+2016/4/20 15:52:49,收到数据,{"request_id":"update_orderstatus","token":"88888888888|7626d3bc9ebd8738885c9ed14155b647","ordersId":"60","orderStatus":"","staFlag":"1","staMessage":"在学校","PicList":""},
+Time:    2016/4/20 15:52:49
+Action:  update_orderstatus
+Source: mscorlib
+Message: 输入字符串的格式不正确。
+StackTrace:    在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ToInt32(Object value)
+   在 MobileInterface_InterfaceService.UpdateOrdersStatus(Dictionary`2 dicParams) 位置 e:\SDW\Midea\src\Sys.Source\MobileInterface\InterfaceService.aspx.cs:行号 505
+   在 MobileInterface_InterfaceService.Page_Load(Object sender, EventArgs e) 位置 e:\SDW\Midea\src\Sys.Source\MobileInterface\InterfaceService.aspx.cs:行号 69
+-----------------------------------------------------------
+
+2016/4/20 15:52:49,update_orderstatus,{"response_id":0,"response_msg":"处理异常！"},
+2016/4/20 15:53:20,------,调用开始,
+2016/4/20 15:53:20,收到数据,{"request_id":"update_orderstatus","token":"88888888888|7626d3bc9ebd8738885c9ed14155b647","ordersId":"60","orderStatus":"","staFlag":"1","staMessage":"在学校","PicList":""},
+Time:    2016/4/20 15:53:21
+Action:  update_orderstatus
+Source: mscorlib
+Message: 输入字符串的格式不正确。
+StackTrace:    在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ToInt32(Object value)
+   在 MobileInterface_InterfaceService.UpdateOrdersStatus(Dictionary`2 dicParams) 位置 e:\SDW\Midea\src\Sys.Source\MobileInterface\InterfaceService.aspx.cs:行号 505
+   在 MobileInterface_InterfaceService.Page_Load(Object sender, EventArgs e) 位置 e:\SDW\Midea\src\Sys.Source\MobileInterface\InterfaceService.aspx.cs:行号 69
+-----------------------------------------------------------
+
+2016/4/20 15:53:21,update_orderstatus,{"response_id":0,"response_msg":"处理异常！"},
+2016/4/20 15:53:23,------,调用开始,
+2016/4/20 15:53:23,收到数据,{"request_id":"update_orderstatus","token":"88888888888|7626d3bc9ebd8738885c9ed14155b647","ordersId":"60","orderStatus":"","staFlag":"1","staMessage":"在学校","PicList":""},
+Time:    2016/4/20 15:53:23
+Action:  update_orderstatus
+Source: mscorlib
+Message: 输入字符串的格式不正确。
+StackTrace:    在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ToInt32(Object value)
+   在 MobileInterface_InterfaceService.UpdateOrdersStatus(Dictionary`2 dicParams) 位置 e:\SDW\Midea\src\Sys.Source\MobileInterface\InterfaceService.aspx.cs:行号 505
+   在 MobileInterface_InterfaceService.Page_Load(Object sender, EventArgs e) 位置 e:\SDW\Midea\src\Sys.Source\MobileInterface\InterfaceService.aspx.cs:行号 69
+-----------------------------------------------------------
+
+2016/4/20 15:53:23,update_orderstatus,{"response_id":0,"response_msg":"处理异常！"},
+2016/4/20 15:53:33,------,调用开始,
+2016/4/20 15:53:38,收到数据,{"request_id":"update_orderstatus","token":"88888888888|7626d3bc9ebd8738885c9ed14155b647","ordersId":"60","orderStatus":"","staFlag":"1","staMessage":"在学校","PicList":""},
+Time:    2016/4/20 15:54:45
+Action:  update_orderstatus
+Source: mscorlib
+Message: 输入字符串的格式不正确。
+StackTrace:    在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ToInt32(Object value)
+   在 MobileInterface_InterfaceService.UpdateOrdersStatus(Dictionary`2 dicParams) 位置 e:\SDW\Midea\src\Sys.Source\MobileInterface\InterfaceService.aspx.cs:行号 505
+   在 MobileInterface_InterfaceService.Page_Load(Object sender, EventArgs e) 位置 e:\SDW\Midea\src\Sys.Source\MobileInterface\InterfaceService.aspx.cs:行号 69
+-----------------------------------------------------------
+
+2016/4/20 15:54:45,update_orderstatus,{"response_id":0,"response_msg":"处理异常！"},
+2016/4/20 15:54:45,------,调用开始,
+2016/4/20 15:54:45,收到数据,{"request_id":"update_orderstatus","token":"88888888888|7626d3bc9ebd8738885c9ed14155b647","ordersId":"60","orderStatus":"","staFlag":"1","staMessage":"在学校","PicList":""},
+Time:    2016/4/20 15:54:45
+Action:  update_orderstatus
+Source: mscorlib
+Message: 输入字符串的格式不正确。
+StackTrace:    在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ToInt32(Object value)
+   在 MobileInterface_InterfaceService.UpdateOrdersStatus(Dictionary`2 dicParams) 位置 e:\SDW\Midea\src\Sys.Source\MobileInterface\InterfaceService.aspx.cs:行号 505
+   在 MobileInterface_InterfaceService.Page_Load(Object sender, EventArgs e) 位置 e:\SDW\Midea\src\Sys.Source\MobileInterface\InterfaceService.aspx.cs:行号 69
+-----------------------------------------------------------
+
+2016/4/20 15:54:45,update_orderstatus,{"response_id":0,"response_msg":"处理异常！"},
+2016/4/20 15:54:48,------,调用开始,
+2016/4/20 15:54:48,收到数据,{"request_id":"update_orderstatus","token":"88888888888|7626d3bc9ebd8738885c9ed14155b647","ordersId":"60","orderStatus":"","staFlag":"1","staMessage":"在学校","PicList":""},
+Time:    2016/4/20 15:54:48
+Action:  update_orderstatus
+Source: mscorlib
+Message: 输入字符串的格式不正确。
+StackTrace:    在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ToInt32(Object value)
+   在 MobileInterface_InterfaceService.UpdateOrdersStatus(Dictionary`2 dicParams) 位置 e:\SDW\Midea\src\Sys.Source\MobileInterface\InterfaceService.aspx.cs:行号 505
+   在 MobileInterface_InterfaceService.Page_Load(Object sender, EventArgs e) 位置 e:\SDW\Midea\src\Sys.Source\MobileInterface\InterfaceService.aspx.cs:行号 69
+-----------------------------------------------------------
+
+2016/4/20 15:54:48,update_orderstatus,{"response_id":0,"response_msg":"处理异常！"},
+2016/4/20 15:54:59,------,调用开始,
+2016/4/20 15:54:59,收到数据,{"request_id":"update_orderstatus","token":"88888888888|7626d3bc9ebd8738885c9ed14155b647","ordersId":"60","orderStatus":"","staFlag":"1","staMessage":"在学校","PicList":""},
+Time:    2016/4/20 15:55:28
+Action:  update_orderstatus
+Source: mscorlib
+Message: 输入字符串的格式不正确。
+StackTrace:    在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ToInt32(Object value)
+   在 MobileInterface_InterfaceService.UpdateOrdersStatus(Dictionary`2 dicParams) 位置 e:\SDW\Midea\src\Sys.Source\MobileInterface\InterfaceService.aspx.cs:行号 505
+   在 MobileInterface_InterfaceService.Page_Load(Object sender, EventArgs e) 位置 e:\SDW\Midea\src\Sys.Source\MobileInterface\InterfaceService.aspx.cs:行号 69
+-----------------------------------------------------------
+
+2016/4/20 15:55:28,update_orderstatus,{"response_id":0,"response_msg":"处理异常！"},

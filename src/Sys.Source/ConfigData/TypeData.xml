@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<items>
+  <module key="AgentType" value="经销商类型">
+    <item key="01">美的中央空调专卖店</item>
+    <item key="02">美的制造旗舰店</item>
+    <item key="03">KA连锁</item>
+    <item key="04">其他渠道</item>
+  </module>
+  <module key="InstallerType" value="安装人员类型">
+    <item key="05">安装人员</item>
+    <item key="06">安装负责人</item>
+  </module>
+  <module key="ProductType" value="产品类型">
+    <item key="01">类型1</item>
+    <item key="02">类型2</item>
+  </module>
+  <module key="OrdersStatus" value="订单状态">
+    <item key="1">预约</item>
+    <item key="2">现场勘查定位</item>
+    <item key="3">设备安装</item>
+    <item key="4">设备调试</item>
+  </module>
+</items> 

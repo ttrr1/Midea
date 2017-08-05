@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E732103D-236D-4EE2-B0A0-F56206A07E62}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Sys.Framework</RootNamespace>
+    <AssemblyName>Sys.Framework</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BLL\AutoCode\Account.cs" />
+    <Compile Include="BLL\AutoCode\Activity.cs" />
+    <Compile Include="BLL\AutoCode\ActivityImg.cs" />
+    <Compile Include="BLL\AutoCode\Admin.cs" />
+    <Compile Include="BLL\AutoCode\AdminFlag.cs" />
+    <Compile Include="BLL\AutoCode\AdminLog.cs" />
+    <Compile Include="BLL\AutoCode\AdminRole.cs" />
+    <Compile Include="BLL\AutoCode\Attendance.cs" />
+    <Compile Include="BLL\AutoCode\Common.cs" />
+    <Compile Include="BLL\AutoCode\EquipmentModel.cs" />
+    <Compile Include="BLL\AutoCode\Expression.cs" />
+    <Compile Include="BLL\AutoCode\Member.cs" />
+    <Compile Include="BLL\AutoCode\News.cs" />
+    <Compile Include="BLL\AutoCode\NewsType.cs" />
+    <Compile Include="BLL\AutoCode\OrderComment.cs" />
+    <Compile Include="BLL\AutoCode\Orders.cs" />
+    <Compile Include="BLL\AutoCode\OrderStatusFlow.cs" />
+    <Compile Include="BLL\AutoCode\OrderType.cs" />
+    <Compile Include="BLL\AutoCode\Services.cs" />
+    <Compile Include="BLL\AutoCode\SysConfig.cs" />
+    <Compile Include="BLL\AutoCode\SysIpBlock.cs" />
+    <Compile Include="BLL\AutoCode\UploadIMG.cs" />
+    <Compile Include="BLL\AutoCode\UserInfo.cs" />
+    <Compile Include="BLL\UserCode\Account.cs" />
+    <Compile Include="BLL\UserCode\EquipmentModel.cs" />
+    <Compile Include="BLL\UserCode\Orders.cs" />
+    <Compile Include="BLL\UserCode\UserInfo.cs" />
+    <Compile Include="DAL\AutoCode\Account.cs" />
+    <Compile Include="DAL\AutoCode\Activity.cs" />
+    <Compile Include="DAL\AutoCode\ActivityImg.cs" />
+    <Compile Include="DAL\AutoCode\Admin.cs" />
+    <Compile Include="DAL\AutoCode\AdminFlag.cs" />
+    <Compile Include="DAL\AutoCode\AdminLog.cs" />
+    <Compile Include="DAL\AutoCode\AdminRole.cs" />
+    <Compile Include="DAL\AutoCode\Attendance.cs" />
+    <Compile Include="DAL\AutoCode\Common.cs" />
+    <Compile Include="DAL\AutoCode\EquipmentModel.cs" />
+    <Compile Include="DAL\AutoCode\Expression.cs" />
+    <Compile Include="DAL\AutoCode\Member.cs" />
+    <Compile Include="DAL\AutoCode\News.cs" />
+    <Compile Include="DAL\AutoCode\NewsType.cs" />
+    <Compile Include="DAL\AutoCode\OrderComment.cs" />
+    <Compile Include="DAL\AutoCode\Orders.cs" />
+    <Compile Include="DAL\AutoCode\OrderStatusFlow.cs" />
+    <Compile Include="DAL\AutoCode\OrderType.cs" />
+    <Compile Include="DAL\AutoCode\Services.cs" />
+    <Compile Include="DAL\AutoCode\SysConfig.cs" />
+    <Compile Include="DAL\AutoCode\SysIpBlock.cs" />
+    <Compile Include="DAL\AutoCode\UserInfo.cs" />
+    <Compile Include="DAL\UserCode\Account.cs" />
+    <Compile Include="DAL\UserCode\EquipmentModel.cs" />
+    <Compile Include="DAL\UserCode\Orders.cs" />
+    <Compile Include="DAL\UserCode\UserInfo.cs" />
+    <Compile Include="Kernel\Software.cs" />
+    <Compile Include="Model\Account.cs" />
+    <Compile Include="Model\Activity.cs" />
+    <Compile Include="Model\ActivityImg.cs" />
+    <Compile Include="Model\Admin.cs" />
+    <Compile Include="Model\AdminFlag.cs" />
+    <Compile Include="Model\AdminLog.cs" />
+    <Compile Include="Model\AdminRole.cs" />
+    <Compile Include="Model\Attendance.cs" />
+    <Compile Include="Model\DicModel.cs" />
+    <Compile Include="Model\EquipmentModel.cs" />
+    <Compile Include="Model\Expression.cs" />
+    <Compile Include="Model\Member.cs" />
+    <Compile Include="Model\News.cs" />
+    <Compile Include="Model\NewsType.cs" />
+    <Compile Include="Model\OrderComment.cs" />
+    <Compile Include="Model\Orders.cs" />
+    <Compile Include="Model\OrderStatusFlow.cs" />
+    <Compile Include="Model\OrderType.cs" />
+    <Compile Include="Model\Services.cs" />
+    <Compile Include="Model\SysConfig.cs" />
+    <Compile Include="Model\SysIpBlock.cs" />
+    <Compile Include="Model\UserInfo.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BLL\AutoCode\vssver2.scc" />
+    <None Include="DAL\AutoCode\vssver2.scc" />
+    <None Include="Kernel\vssver2.scc" />
+    <None Include="Model\vssver2.scc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Sys.Common\Sys.Common.csproj">
+      <Project>{C1990398-BFB0-4D84-928B-0F996F80D929}</Project>
+      <Name>Sys.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

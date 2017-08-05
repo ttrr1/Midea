@@ -1,0 +1,1403 @@
+2016/3/30 13:14:11,------,调用开始,
+2016/3/30 13:14:11,收到数据,{
+    "request_id": "register" ,
+    "user_info": [
+        {
+            "USERLOGINID": "13052894182",
+            "PASSWORD": "123456",
+            "USERNAME": "二明",
+            "CompanyName": "仕德伟",
+            "ProvinceId": null,
+            "ProvinceName": "江苏省",
+            "CityId": null,
+            "CityName": "苏州市",
+            "AreaId": null,
+            "AreaName": "高新区",
+            "Address": "湘江路",
+            "contact": null,
+            "TypeKey": "1",
+            "TypeValue": " KA连锁",
+            "RoleId": "1"
+        }
+,
+Time:    2016/3/30 13:14:11
+Action:  
+Source: Jayrock.Json
+Message: Expected a ',' or ']'. See line 20, position 11.
+StackTrace:    在 Jayrock.Json.JsonTextReader.ParseArrayNext()
+   在 Jayrock.Json.JsonTextReader.ReadTokenImpl()
+   在 Jayrock.Json.JsonReaderBase.Read()
+   在 Jayrock.Json.JsonObject.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.JsonObject.Jayrock.Json.Conversion.IJsonImportable.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.Converters.AnyImporter.ImportFromObject(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.Converters.ImporterBase.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.ImportContext.Import(Type type, JsonReader reader)
+   在 Jayrock.Json.Conversion.ImportContext.Import(JsonReader reader)
+   在 Jayrock.Json.JsonArray.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.JsonArray.Jayrock.Json.Conversion.IJsonImportable.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.Converters.AnyImporter.ImportFromArray(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.Converters.ImporterBase.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.ImportContext.Import(Type type, JsonReader reader)
+   在 Jayrock.Json.Conversion.ImportContext.Import(JsonReader reader)
+   在 Jayrock.Json.JsonObject.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.JsonObject.Jayrock.Json.Conversion.IJsonImportable.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.Converters.AnyImporter.ImportFromObject(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.Converters.ImporterBase.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.ImportContext.Import(Type type, JsonReader reader)
+   在 Jayrock.Json.Conversion.JsonConvert.Import(Type type, JsonReader reader)
+   在 Jayrock.Json.Conversion.JsonConvert.Import(JsonReader reader)
+   在 Jayrock.Json.Conversion.JsonConvert.Import(TextReader reader)
+   在 Jayrock.Json.Conversion.JsonConvert.Import(String text)
+   在 Midea.Common.JsonHelper.JsonToDictionary(Type dictionaryType, String jsonString) 位置 E:\SDW\Midea\src\Sys.Common\JsonHelper.cs:行号 231
+   在 Midea.Common.JsonHelper.JsonToObject(Type T, String jsonString) 位置 E:\SDW\Midea\src\Sys.Common\JsonHelper.cs:行号 41
+   在 Midea.Common.JsonHelper.JsonToObject[T](String jsonString) 位置 E:\SDW\Midea\src\Sys.Common\JsonHelper.cs:行号 116
+   在 MobileInterface_InterfaceService.Page_Load(Object sender, EventArgs e) 位置 e:\SDW\Midea\src\Sys.Source\MobileInterface\InterfaceService.aspx.cs:行号 53
+-----------------------------------------------------------
+
+2016/3/30 13:14:11,,{"response_id":0,"response_msg":"处理异常！"},
+2016/3/30 13:14:26,------,调用开始,
+2016/3/30 13:14:26,收到数据,{
+    "request_id": "register" ,
+    "user_info": [
+        {
+            "USERLOGINID": "13052894182",
+            "PASSWORD": "123456",
+            "USERNAME": "二明",
+            "CompanyName": "仕德伟",
+            "ProvinceId": null,
+            "ProvinceName": "江苏省",
+            "CityId": null,
+            "CityName": "苏州市",
+            "AreaId": null,
+            "AreaName": "高新区",
+            "Address": "湘江路",
+            "contact": null,
+            "TypeKey": "1",
+            "TypeValue": " KA连锁",
+            "RoleId": "1"
+        }
+,
+Time:    2016/3/30 13:14:26
+Action:  
+Source: Jayrock.Json
+Message: Expected a ',' or ']'. See line 20, position 11.
+StackTrace:    在 Jayrock.Json.JsonTextReader.ParseArrayNext()
+   在 Jayrock.Json.JsonTextReader.ReadTokenImpl()
+   在 Jayrock.Json.JsonReaderBase.Read()
+   在 Jayrock.Json.JsonObject.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.JsonObject.Jayrock.Json.Conversion.IJsonImportable.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.Converters.AnyImporter.ImportFromObject(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.Converters.ImporterBase.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.ImportContext.Import(Type type, JsonReader reader)
+   在 Jayrock.Json.Conversion.ImportContext.Import(JsonReader reader)
+   在 Jayrock.Json.JsonArray.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.JsonArray.Jayrock.Json.Conversion.IJsonImportable.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.Converters.AnyImporter.ImportFromArray(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.Converters.ImporterBase.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.ImportContext.Import(Type type, JsonReader reader)
+   在 Jayrock.Json.Conversion.ImportContext.Import(JsonReader reader)
+   在 Jayrock.Json.JsonObject.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.JsonObject.Jayrock.Json.Conversion.IJsonImportable.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.Converters.AnyImporter.ImportFromObject(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.Converters.ImporterBase.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.ImportContext.Import(Type type, JsonReader reader)
+   在 Jayrock.Json.Conversion.JsonConvert.Import(Type type, JsonReader reader)
+   在 Jayrock.Json.Conversion.JsonConvert.Import(JsonReader reader)
+   在 Jayrock.Json.Conversion.JsonConvert.Import(TextReader reader)
+   在 Jayrock.Json.Conversion.JsonConvert.Import(String text)
+   在 Midea.Common.JsonHelper.JsonToDictionary(Type dictionaryType, String jsonString) 位置 E:\SDW\Midea\src\Sys.Common\JsonHelper.cs:行号 231
+   在 Midea.Common.JsonHelper.JsonToObject(Type T, String jsonString) 位置 E:\SDW\Midea\src\Sys.Common\JsonHelper.cs:行号 41
+   在 Midea.Common.JsonHelper.JsonToObject[T](String jsonString) 位置 E:\SDW\Midea\src\Sys.Common\JsonHelper.cs:行号 116
+   在 MobileInterface_InterfaceService.Page_Load(Object sender, EventArgs e) 位置 e:\SDW\Midea\src\Sys.Source\MobileInterface\InterfaceService.aspx.cs:行号 53
+-----------------------------------------------------------
+
+2016/3/30 13:14:26,,{"response_id":0,"response_msg":"处理异常！"},
+2016/3/30 13:14:38,------,调用开始,
+2016/3/30 13:14:42,收到数据,{
+    "request_id": "register" ,
+    "user_info": [
+        {
+            "USERLOGINID": "13052894182",
+            "PASSWORD": "123456",
+            "USERNAME": "二明",
+            "CompanyName": "仕德伟",
+            "ProvinceId": null,
+            "ProvinceName": "江苏省",
+            "CityId": null,
+            "CityName": "苏州市",
+            "AreaId": null,
+            "AreaName": "高新区",
+            "Address": "湘江路",
+            "contact": null,
+            "TypeKey": "1",
+            "TypeValue": " KA连锁",
+            "RoleId": "1"
+        }
+,
+Time:    2016/3/30 13:14:56
+Action:  
+Source: Jayrock.Json
+Message: Expected a ',' or ']'. See line 20, position 11.
+StackTrace:    在 Jayrock.Json.JsonTextReader.ParseArrayNext()
+   在 Jayrock.Json.JsonTextReader.ReadTokenImpl()
+   在 Jayrock.Json.JsonReaderBase.Read()
+   在 Jayrock.Json.JsonObject.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.JsonObject.Jayrock.Json.Conversion.IJsonImportable.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.Converters.AnyImporter.ImportFromObject(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.Converters.ImporterBase.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.ImportContext.Import(Type type, JsonReader reader)
+   在 Jayrock.Json.Conversion.ImportContext.Import(JsonReader reader)
+   在 Jayrock.Json.JsonArray.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.JsonArray.Jayrock.Json.Conversion.IJsonImportable.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.Converters.AnyImporter.ImportFromArray(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.Converters.ImporterBase.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.ImportContext.Import(Type type, JsonReader reader)
+   在 Jayrock.Json.Conversion.ImportContext.Import(JsonReader reader)
+   在 Jayrock.Json.JsonObject.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.JsonObject.Jayrock.Json.Conversion.IJsonImportable.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.Converters.AnyImporter.ImportFromObject(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.Converters.ImporterBase.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.ImportContext.Import(Type type, JsonReader reader)
+   在 Jayrock.Json.Conversion.JsonConvert.Import(Type type, JsonReader reader)
+   在 Jayrock.Json.Conversion.JsonConvert.Import(JsonReader reader)
+   在 Jayrock.Json.Conversion.JsonConvert.Import(TextReader reader)
+   在 Jayrock.Json.Conversion.JsonConvert.Import(String text)
+   在 Midea.Common.JsonHelper.JsonToDictionary(Type dictionaryType, String jsonString) 位置 E:\SDW\Midea\src\Sys.Common\JsonHelper.cs:行号 231
+   在 Midea.Common.JsonHelper.JsonToObject(Type T, String jsonString) 位置 E:\SDW\Midea\src\Sys.Common\JsonHelper.cs:行号 41
+   在 Midea.Common.JsonHelper.JsonToObject[T](String jsonString) 位置 E:\SDW\Midea\src\Sys.Common\JsonHelper.cs:行号 116
+   在 MobileInterface_InterfaceService.Page_Load(Object sender, EventArgs e) 位置 e:\SDW\Midea\src\Sys.Source\MobileInterface\InterfaceService.aspx.cs:行号 53
+-----------------------------------------------------------
+
+2016/3/30 13:14:56,,{"response_id":0,"response_msg":"处理异常！"},
+2016/3/30 13:15:00,------,调用开始,
+2016/3/30 13:15:03,收到数据,{
+    "request_id": "register" ,
+    "user_info": [
+        {
+            "USERLOGINID": "13052894182",
+            "PASSWORD": "123456",
+            "USERNAME": "二明",
+            "CompanyName": "仕德伟",
+            "ProvinceId": null,
+            "ProvinceName": "江苏省",
+            "CityId": null,
+            "CityName": "苏州市",
+            "AreaId": null,
+            "AreaName": "高新区",
+            "Address": "湘江路",
+            "contact": null,
+            "TypeKey": "1",
+            "TypeValue": " KA连锁",
+            "RoleId": "1"
+        }
+,
+Time:    2016/3/30 13:15:51
+Action:  
+Source: Jayrock.Json
+Message: Expected a ',' or ']'. See line 20, position 11.
+StackTrace:    在 Jayrock.Json.JsonTextReader.ParseArrayNext()
+   在 Jayrock.Json.JsonTextReader.ReadTokenImpl()
+   在 Jayrock.Json.JsonReaderBase.Read()
+   在 Jayrock.Json.JsonObject.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.JsonObject.Jayrock.Json.Conversion.IJsonImportable.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.Converters.AnyImporter.ImportFromObject(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.Converters.ImporterBase.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.ImportContext.Import(Type type, JsonReader reader)
+   在 Jayrock.Json.Conversion.ImportContext.Import(JsonReader reader)
+   在 Jayrock.Json.JsonArray.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.JsonArray.Jayrock.Json.Conversion.IJsonImportable.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.Converters.AnyImporter.ImportFromArray(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.Converters.ImporterBase.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.ImportContext.Import(Type type, JsonReader reader)
+   在 Jayrock.Json.Conversion.ImportContext.Import(JsonReader reader)
+   在 Jayrock.Json.JsonObject.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.JsonObject.Jayrock.Json.Conversion.IJsonImportable.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.Converters.AnyImporter.ImportFromObject(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.Converters.ImporterBase.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.ImportContext.Import(Type type, JsonReader reader)
+   在 Jayrock.Json.Conversion.JsonConvert.Import(Type type, JsonReader reader)
+   在 Jayrock.Json.Conversion.JsonConvert.Import(JsonReader reader)
+   在 Jayrock.Json.Conversion.JsonConvert.Import(TextReader reader)
+   在 Jayrock.Json.Conversion.JsonConvert.Import(String text)
+   在 Midea.Common.JsonHelper.JsonToDictionary(Type dictionaryType, String jsonString) 位置 E:\SDW\Midea\src\Sys.Common\JsonHelper.cs:行号 231
+   在 Midea.Common.JsonHelper.JsonToObject(Type T, String jsonString) 位置 E:\SDW\Midea\src\Sys.Common\JsonHelper.cs:行号 41
+   在 Midea.Common.JsonHelper.JsonToObject[T](String jsonString) 位置 E:\SDW\Midea\src\Sys.Common\JsonHelper.cs:行号 116
+   在 MobileInterface_InterfaceService.Page_Load(Object sender, EventArgs e) 位置 e:\SDW\Midea\src\Sys.Source\MobileInterface\InterfaceService.aspx.cs:行号 53
+-----------------------------------------------------------
+
+2016/3/30 13:15:51,,{"response_id":0,"response_msg":"处理异常！"},
+2016/3/30 13:16:47,------,调用开始,
+2016/3/30 13:16:47,收到数据,{
+    "request_id": " register" ,
+    "user_info": [
+        {
+            "USERLOGINID": "13052894185",
+            "PASSWORD": "123456",
+            "USERNAME": "二明",
+            "CompanyName": "仕德伟",
+            "ProvinceId": null,
+            "ProvinceName": "江苏省",
+            "CityId": null,
+            "CityName": "苏州市",
+            "AreaId": null,
+            "AreaName": "高新区",
+            "Address": "湘江路",
+            "contact": null,
+            "TypeKey": "1",
+            "TypeValue": " KA连锁",
+            "RoleId": "1"
+        }]
+}
+,
+2016/3/30 13:17:28,register,{"response_id":0,"response_msg":"手机号重复，不能注册！"},
+2016/3/30 13:17:43,------,调用开始,
+2016/3/30 13:17:43,收到数据,{
+    "request_id": " register" ,
+    "user_info": [
+        {
+            "USERLOGINID": "13052894182",
+            "PASSWORD": "123456",
+            "USERNAME": "二明",
+            "CompanyName": "仕德伟",
+            "ProvinceId": null,
+            "ProvinceName": "江苏省",
+            "CityId": null,
+            "CityName": "苏州市",
+            "AreaId": null,
+            "AreaName": "高新区",
+            "Address": "湘江路",
+            "contact": null,
+            "TypeKey": "1",
+            "TypeValue": " KA连锁",
+            "RoleId": "1"
+        }]
+}
+,
+2016/3/30 13:18:25,register,{"CommentId":0,"OrderId":null,"StarLevel":null,"Remark":null,"CreateUserId":null,"CreateDate":null},
+2016/3/30 13:18:50,------,调用开始,
+2016/3/30 13:18:50,收到数据,{
+    "request_id": " register" ,
+    "user_info": [
+        {
+            "USERLOGINID": "13052894182",
+            "PASSWORD": "123456",
+            "USERNAME": "二明",
+            "CompanyName": "仕德伟",
+            "ProvinceId": null,
+            "ProvinceName": "江苏省",
+            "CityId": null,
+            "CityName": "苏州市",
+            "AreaId": null,
+            "AreaName": "高新区",
+            "Address": "湘江路",
+            "contact": null,
+            "TypeKey": "1",
+            "TypeValue": " KA连锁",
+            "RoleId": "1"
+        }]
+}
+,
+Time:    2016/3/30 13:19:26
+Action:  register
+Source: .Net SqlClient Data Provider
+Message: 过程或函数 'UserInfo_ADD_New_Admin' 需要参数 '@CompanyName'，但未提供该参数。
+StackTrace:    在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Sys.Common.DbHelperSQL.RunProcedure(String storedProcName, IDataParameter[] parameters, Int32& rowsAffected) 位置 E:\SDW\Midea\src\Sys.Common\DBHelperSQL.cs:行号 929
+   在 Sys.DAL.UserInfo.Add(UserInfo model, String password) 位置 E:\SDW\Midea\src\Sys.Framework\DAL\UserCode\UserInfo.cs:行号 38
+   在 Sys.BLL.UserInfo.Add(UserInfo model, String password) 位置 E:\SDW\Midea\src\Sys.Framework\BLL\UserCode\UserInfo.cs:行号 15
+   在 MobileInterface_InterfaceService.Register(Dictionary`2 dicParams) 位置 e:\SDW\Midea\src\Sys.Source\MobileInterface\InterfaceService.aspx.cs:行号 190
+   在 MobileInterface_InterfaceService.Page_Load(Object sender, EventArgs e) 位置 e:\SDW\Midea\src\Sys.Source\MobileInterface\InterfaceService.aspx.cs:行号 66
+-----------------------------------------------------------
+
+2016/3/30 13:19:26,register,{"response_id":0,"response_msg":"处理异常！"},
+2016/3/30 13:24:27,------,调用开始,
+2016/3/30 13:24:27,收到数据,{
+    "request_id": " register" ,
+    "user_info": [
+        {
+            "USERLOGINID": "13052894182",
+            "PASSWORD": "123456",
+            "USERNAME": "二明",
+            "CompanyName": "仕德伟",
+            "ProvinceId": null,
+            "ProvinceName": "江苏省",
+            "CityId": null,
+            "CityName": "苏州市",
+            "AreaId": null,
+            "AreaName": "高新区",
+            "Address": "湘江路",
+            "contact": null,
+            "TypeKey": "1",
+            "TypeValue": " KA连锁",
+            "RoleId": "1"
+        }]
+}
+,
+2016/3/30 13:24:50,register,{"response_id":1,"response_msg":"注册成功！"},
+2016/3/30 13:29:53,------,调用开始,
+2016/3/30 13:29:53,收到数据,{
+    "request_id": " register" ,
+    "user_info": [
+        {
+            "USERLOGINID": "13052894192",
+            "PASSWORD": "123456",
+            "USERNAME": "二明",
+            "CompanyName": "仕德伟",
+            "ProvinceId": null,
+            "ProvinceName": "江苏省",
+            "CityId": null,
+            "CityName": "苏州市",
+            "AreaId": null,
+            "AreaName": "高新区",
+            "Address": "湘江路",
+            "contact": null,
+            "TypeKey": "1",
+            "TypeValue": " KA连锁",
+            "RoleId": "1"
+        }]
+}
+,
+2016/3/30 13:29:53,register,{"response_id":1,"response_msg":"注册成功！"},
+2016/3/30 14:26:24,------,调用开始,
+2016/3/30 14:26:28,收到数据,{"request_id":"register_init"},
+2016/3/30 14:27:28,register_init,{"AgentType":{"01":"美的中央空调专卖店","02":"美的制造旗舰店","03":"KA连锁","04":"其他渠道"},"InstallerTypeList":{"05":"安装人员","06":"安装负责人"},"response_id":1,"response_msg":"初始化成功！"},
+2016/3/30 14:37:06,------,调用开始,
+2016/3/30 14:37:06,收到数据,{"request_id":"register","user_info":[{"CityName":"苏州","ProvinceName":"江苏","PASSWORD":"w15212947589","contact":"13033188768","USERNAME":"内马尔","AreaName":"虎丘区","CompanyName":"仕德伟","TypeValue":"美的中央空调专卖店","Address":"湘江路533","USERLOGINID":"13033188768","companyAddress":"江苏-苏州-虎丘区","RoleId":2,"TypeKey":"00"}]},
+Time:    2016/3/30 14:37:41
+Action:  register
+Source: System.Data
+Message: 列“CityId”不属于表 。
+StackTrace:    在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.get_Item(String columnName)
+   在 MobileInterface_InterfaceService.Register(Dictionary`2 dicParams) 位置 e:\SDW\Midea\src\Sys.Source\MobileInterface\InterfaceService.aspx.cs:行号 154
+   在 MobileInterface_InterfaceService.Page_Load(Object sender, EventArgs e) 位置 e:\SDW\Midea\src\Sys.Source\MobileInterface\InterfaceService.aspx.cs:行号 45
+-----------------------------------------------------------
+
+2016/3/30 14:37:41,register,{"response_id":0,"response_msg":"处理异常！"},
+2016/3/30 14:38:11,------,调用开始,
+2016/3/30 14:38:11,收到数据,{"request_id":"register","user_info":[{"CityName":"苏州","ProvinceName":"江苏","PASSWORD":"w15212947589","contact":"13033188768","USERNAME":"内马尔","AreaName":"虎丘区","CompanyName":"仕德伟","TypeValue":"美的中央空调专卖店","Address":"湘江路533","USERLOGINID":"13033188768","companyAddress":"江苏-苏州-虎丘区","RoleId":2,"TypeKey":"00"}]},
+Time:    2016/3/30 14:38:52
+Action:  register
+Source: System.Data
+Message: 列“CityId”不属于表 。
+StackTrace:    在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.get_Item(String columnName)
+   在 MobileInterface_InterfaceService.Register(Dictionary`2 dicParams) 位置 e:\SDW\Midea\src\Sys.Source\MobileInterface\InterfaceService.aspx.cs:行号 154
+   在 MobileInterface_InterfaceService.Page_Load(Object sender, EventArgs e) 位置 e:\SDW\Midea\src\Sys.Source\MobileInterface\InterfaceService.aspx.cs:行号 45
+-----------------------------------------------------------
+
+2016/3/30 14:38:52,register,{"response_id":0,"response_msg":"处理异常！"},
+2016/3/30 14:51:18,------,调用开始,
+2016/3/30 14:51:18,收到数据,{
+"request_id": "create_orders",
+"token": "user_id|password",
+    "orders": [
+        {
+            "ProjectName": "美的空调安装项目",
+"UserLoginId": "13052894192",
+"CustomName": "仕德伟",
+"CityId": "1",
+"CityName": "苏州市",
+"AreaId": "2",
+"AreaName": "高新区",
+"Address": "湘江路",
+            "Remark": null,
+        }
+    ],
+    "orders_type": [
+        {
+            "ProductType": 1,
+            "ProductTypeName": "产品类型1",
+            "MainModelId": 1,
+            "MainModelName": "主机类型",
+            "MainModelNum": 1,
+            "SubModelId1": 1,
+            "SubModelName1": "内机类型1",
+            "SubModelNum1": 1,
+            "SubModelId2": 2,
+            "SubModelName2": "内机类型2",
+            "SubModelNum2": 1,
+            "SubModelId3": 3,
+            "SubModelName3": "内机类型3",
+            "SubModelNum3": 1,
+            "SubModelId4": 4,
+            "SubModelName4": "内机类型4",
+            "SubModelNum4": 1,
+            "ModelId": null,
+            "ModelName": null,
+            "ModelNum": null
+        },
+        {
+            "ProductType": 2,
+            "ProductTypeName": "产品类型2",
+            "MainModelId": null,
+            "MainModelName": null,
+            "MainModelNum": null,
+            "SubModelId1": null,
+            "SubModelName1": null,
+"SubModelNum1": null,
+            "SubModelId2": null,
+            "SubModelName2": null,
+"SubModelNum2": null,
+            "SubModelId3": null,
+            "SubModelName3": null,
+"SubModelNum3": null,
+            "SubModelId4": null,
+            "SubModelName4": null,
+"SubModelNum4": null,
+            "ModelId": 1,
+            "ModelName": "产品类型"
+            "ModelNum": 1
+        }
+    ]
+}
+,
+Time:    2016/3/30 14:51:18
+Action:  
+Source: Jayrock.Json
+Message: Expected a ',' or '}'. See line 60, position 13.
+StackTrace:    在 Jayrock.Json.JsonTextReader.ParseNextMember()
+   在 Jayrock.Json.JsonTextReader.ReadTokenImpl()
+   在 Jayrock.Json.JsonReaderBase.Read()
+   在 Jayrock.Json.JsonReader.ReadToken(JsonTokenClass token)
+   在 Jayrock.Json.Conversion.Converters.AnyImporter.ImportFromString(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.Converters.ImporterBase.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.ImportContext.Import(Type type, JsonReader reader)
+   在 Jayrock.Json.Conversion.ImportContext.Import(JsonReader reader)
+   在 Jayrock.Json.JsonObject.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.JsonObject.Jayrock.Json.Conversion.IJsonImportable.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.Converters.AnyImporter.ImportFromObject(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.Converters.ImporterBase.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.ImportContext.Import(Type type, JsonReader reader)
+   在 Jayrock.Json.Conversion.ImportContext.Import(JsonReader reader)
+   在 Jayrock.Json.JsonArray.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.JsonArray.Jayrock.Json.Conversion.IJsonImportable.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.Converters.AnyImporter.ImportFromArray(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.Converters.ImporterBase.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.ImportContext.Import(Type type, JsonReader reader)
+   在 Jayrock.Json.Conversion.ImportContext.Import(JsonReader reader)
+   在 Jayrock.Json.JsonObject.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.JsonObject.Jayrock.Json.Conversion.IJsonImportable.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.Converters.AnyImporter.ImportFromObject(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.Converters.ImporterBase.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.ImportContext.Import(Type type, JsonReader reader)
+   在 Jayrock.Json.Conversion.JsonConvert.Import(Type type, JsonReader reader)
+   在 Jayrock.Json.Conversion.JsonConvert.Import(JsonReader reader)
+   在 Jayrock.Json.Conversion.JsonConvert.Import(String text)
+   在 Midea.Common.JsonHelper.JsonToDictionary(Type dictionaryType, String jsonString) 位置 E:\SDW\Midea\src\Sys.Common\JsonHelper.cs:行号 231
+   在 Midea.Common.JsonHelper.JsonToObject(Type T, String jsonString) 位置 E:\SDW\Midea\src\Sys.Common\JsonHelper.cs:行号 41
+   在 Midea.Common.JsonHelper.JsonToObject[T](String jsonString) 位置 E:\SDW\Midea\src\Sys.Common\JsonHelper.cs:行号 116
+   在 MobileInterface_InterfaceService.Page_Load(Object sender, EventArgs e) 位置 e:\SDW\Midea\src\Sys.Source\MobileInterface\InterfaceService.aspx.cs:行号 96
+-----------------------------------------------------------
+
+2016/3/30 14:51:18,,{"response_id":0,"response_msg":"处理异常！"},
+2016/3/30 14:51:30,------,调用开始,
+2016/3/30 14:51:30,收到数据,{
+"request_id": "create_orders",
+"token": "user_id|password",
+    "orders": [
+        {
+            "ProjectName": "美的空调安装项目",
+"UserLoginId": "13052894192",
+"CustomName": "仕德伟",
+"CityId": "1",
+"CityName": "苏州市",
+"AreaId": "2",
+"AreaName": "高新区",
+"Address": "湘江路",
+            "Remark": null,
+        }
+    ],
+    "orders_type": [
+        {
+            "ProductType": 1,
+            "ProductTypeName": "产品类型1",
+            "MainModelId": 1,
+            "MainModelName": "主机类型",
+            "MainModelNum": 1,
+            "SubModelId1": 1,
+            "SubModelName1": "内机类型1",
+            "SubModelNum1": 1,
+            "SubModelId2": 2,
+            "SubModelName2": "内机类型2",
+            "SubModelNum2": 1,
+            "SubModelId3": 3,
+            "SubModelName3": "内机类型3",
+            "SubModelNum3": 1,
+            "SubModelId4": 4,
+            "SubModelName4": "内机类型4",
+            "SubModelNum4": 1,
+            "ModelId": null,
+            "ModelName": null,
+            "ModelNum": null
+        },
+        {
+            "ProductType": 2,
+            "ProductTypeName": "产品类型2",
+            "MainModelId": null,
+            "MainModelName": null,
+            "MainModelNum": null,
+            "SubModelId1": null,
+            "SubModelName1": null,
+"SubModelNum1": null,
+            "SubModelId2": null,
+            "SubModelName2": null,
+"SubModelNum2": null,
+            "SubModelId3": null,
+            "SubModelName3": null,
+"SubModelNum3": null,
+            "SubModelId4": null,
+            "SubModelName4": null,
+"SubModelNum4": null,
+            "ModelId": 1,
+            "ModelName": "产品类型"
+            "ModelNum": 1
+        }
+    ]
+}
+,
+Time:    2016/3/30 14:51:30
+Action:  
+Source: Jayrock.Json
+Message: Expected a ',' or '}'. See line 60, position 13.
+StackTrace:    在 Jayrock.Json.JsonTextReader.ParseNextMember()
+   在 Jayrock.Json.JsonTextReader.ReadTokenImpl()
+   在 Jayrock.Json.JsonReaderBase.Read()
+   在 Jayrock.Json.JsonReader.ReadToken(JsonTokenClass token)
+   在 Jayrock.Json.Conversion.Converters.AnyImporter.ImportFromString(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.Converters.ImporterBase.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.ImportContext.Import(Type type, JsonReader reader)
+   在 Jayrock.Json.Conversion.ImportContext.Import(JsonReader reader)
+   在 Jayrock.Json.JsonObject.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.JsonObject.Jayrock.Json.Conversion.IJsonImportable.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.Converters.AnyImporter.ImportFromObject(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.Converters.ImporterBase.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.ImportContext.Import(Type type, JsonReader reader)
+   在 Jayrock.Json.Conversion.ImportContext.Import(JsonReader reader)
+   在 Jayrock.Json.JsonArray.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.JsonArray.Jayrock.Json.Conversion.IJsonImportable.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.Converters.AnyImporter.ImportFromArray(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.Converters.ImporterBase.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.ImportContext.Import(Type type, JsonReader reader)
+   在 Jayrock.Json.Conversion.ImportContext.Import(JsonReader reader)
+   在 Jayrock.Json.JsonObject.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.JsonObject.Jayrock.Json.Conversion.IJsonImportable.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.Converters.AnyImporter.ImportFromObject(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.Converters.ImporterBase.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.ImportContext.Import(Type type, JsonReader reader)
+   在 Jayrock.Json.Conversion.JsonConvert.Import(Type type, JsonReader reader)
+   在 Jayrock.Json.Conversion.JsonConvert.Import(JsonReader reader)
+   在 Jayrock.Json.Conversion.JsonConvert.Import(String text)
+   在 Midea.Common.JsonHelper.JsonToDictionary(Type dictionaryType, String jsonString) 位置 E:\SDW\Midea\src\Sys.Common\JsonHelper.cs:行号 231
+   在 Midea.Common.JsonHelper.JsonToObject(Type T, String jsonString) 位置 E:\SDW\Midea\src\Sys.Common\JsonHelper.cs:行号 41
+   在 Midea.Common.JsonHelper.JsonToObject[T](String jsonString) 位置 E:\SDW\Midea\src\Sys.Common\JsonHelper.cs:行号 116
+   在 MobileInterface_InterfaceService.Page_Load(Object sender, EventArgs e) 位置 e:\SDW\Midea\src\Sys.Source\MobileInterface\InterfaceService.aspx.cs:行号 96
+-----------------------------------------------------------
+
+2016/3/30 14:51:30,,{"response_id":0,"response_msg":"处理异常！"},
+2016/3/30 14:51:32,------,调用开始,
+2016/3/30 14:51:32,收到数据,{
+"request_id": "create_orders",
+"token": "user_id|password",
+    "orders": [
+        {
+            "ProjectName": "美的空调安装项目",
+"UserLoginId": "13052894192",
+"CustomName": "仕德伟",
+"CityId": "1",
+"CityName": "苏州市",
+"AreaId": "2",
+"AreaName": "高新区",
+"Address": "湘江路",
+            "Remark": null,
+        }
+    ],
+    "orders_type": [
+        {
+            "ProductType": 1,
+            "ProductTypeName": "产品类型1",
+            "MainModelId": 1,
+            "MainModelName": "主机类型",
+            "MainModelNum": 1,
+            "SubModelId1": 1,
+            "SubModelName1": "内机类型1",
+            "SubModelNum1": 1,
+            "SubModelId2": 2,
+            "SubModelName2": "内机类型2",
+            "SubModelNum2": 1,
+            "SubModelId3": 3,
+            "SubModelName3": "内机类型3",
+            "SubModelNum3": 1,
+            "SubModelId4": 4,
+            "SubModelName4": "内机类型4",
+            "SubModelNum4": 1,
+            "ModelId": null,
+            "ModelName": null,
+            "ModelNum": null
+        },
+        {
+            "ProductType": 2,
+            "ProductTypeName": "产品类型2",
+            "MainModelId": null,
+            "MainModelName": null,
+            "MainModelNum": null,
+            "SubModelId1": null,
+            "SubModelName1": null,
+"SubModelNum1": null,
+            "SubModelId2": null,
+            "SubModelName2": null,
+"SubModelNum2": null,
+            "SubModelId3": null,
+            "SubModelName3": null,
+"SubModelNum3": null,
+            "SubModelId4": null,
+            "SubModelName4": null,
+"SubModelNum4": null,
+            "ModelId": 1,
+            "ModelName": "产品类型"
+            "ModelNum": 1
+        }
+    ]
+}
+,
+Time:    2016/3/30 14:51:32
+Action:  
+Source: Jayrock.Json
+Message: Expected a ',' or '}'. See line 60, position 13.
+StackTrace:    在 Jayrock.Json.JsonTextReader.ParseNextMember()
+   在 Jayrock.Json.JsonTextReader.ReadTokenImpl()
+   在 Jayrock.Json.JsonReaderBase.Read()
+   在 Jayrock.Json.JsonReader.ReadToken(JsonTokenClass token)
+   在 Jayrock.Json.Conversion.Converters.AnyImporter.ImportFromString(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.Converters.ImporterBase.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.ImportContext.Import(Type type, JsonReader reader)
+   在 Jayrock.Json.Conversion.ImportContext.Import(JsonReader reader)
+   在 Jayrock.Json.JsonObject.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.JsonObject.Jayrock.Json.Conversion.IJsonImportable.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.Converters.AnyImporter.ImportFromObject(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.Converters.ImporterBase.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.ImportContext.Import(Type type, JsonReader reader)
+   在 Jayrock.Json.Conversion.ImportContext.Import(JsonReader reader)
+   在 Jayrock.Json.JsonArray.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.JsonArray.Jayrock.Json.Conversion.IJsonImportable.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.Converters.AnyImporter.ImportFromArray(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.Converters.ImporterBase.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.ImportContext.Import(Type type, JsonReader reader)
+   在 Jayrock.Json.Conversion.ImportContext.Import(JsonReader reader)
+   在 Jayrock.Json.JsonObject.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.JsonObject.Jayrock.Json.Conversion.IJsonImportable.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.Converters.AnyImporter.ImportFromObject(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.Converters.ImporterBase.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.ImportContext.Import(Type type, JsonReader reader)
+   在 Jayrock.Json.Conversion.JsonConvert.Import(Type type, JsonReader reader)
+   在 Jayrock.Json.Conversion.JsonConvert.Import(JsonReader reader)
+   在 Jayrock.Json.Conversion.JsonConvert.Import(String text)
+   在 Midea.Common.JsonHelper.JsonToDictionary(Type dictionaryType, String jsonString) 位置 E:\SDW\Midea\src\Sys.Common\JsonHelper.cs:行号 231
+   在 Midea.Common.JsonHelper.JsonToObject(Type T, String jsonString) 位置 E:\SDW\Midea\src\Sys.Common\JsonHelper.cs:行号 41
+   在 Midea.Common.JsonHelper.JsonToObject[T](String jsonString) 位置 E:\SDW\Midea\src\Sys.Common\JsonHelper.cs:行号 116
+   在 MobileInterface_InterfaceService.Page_Load(Object sender, EventArgs e) 位置 e:\SDW\Midea\src\Sys.Source\MobileInterface\InterfaceService.aspx.cs:行号 96
+-----------------------------------------------------------
+
+2016/3/30 14:51:32,,{"response_id":0,"response_msg":"处理异常！"},
+2016/3/30 14:51:44,------,调用开始,
+2016/3/30 14:51:47,收到数据,{
+"request_id": "create_orders",
+"token": "user_id|password",
+    "orders": [
+        {
+            "ProjectName": "美的空调安装项目",
+"UserLoginId": "13052894192",
+"CustomName": "仕德伟",
+"CityId": "1",
+"CityName": "苏州市",
+"AreaId": "2",
+"AreaName": "高新区",
+"Address": "湘江路",
+            "Remark": null,
+        }
+    ],
+    "orders_type": [
+        {
+            "ProductType": 1,
+            "ProductTypeName": "产品类型1",
+            "MainModelId": 1,
+            "MainModelName": "主机类型",
+            "MainModelNum": 1,
+            "SubModelId1": 1,
+            "SubModelName1": "内机类型1",
+            "SubModelNum1": 1,
+            "SubModelId2": 2,
+            "SubModelName2": "内机类型2",
+            "SubModelNum2": 1,
+            "SubModelId3": 3,
+            "SubModelName3": "内机类型3",
+            "SubModelNum3": 1,
+            "SubModelId4": 4,
+            "SubModelName4": "内机类型4",
+            "SubModelNum4": 1,
+            "ModelId": null,
+            "ModelName": null,
+            "ModelNum": null
+        },
+        {
+            "ProductType": 2,
+            "ProductTypeName": "产品类型2",
+            "MainModelId": null,
+            "MainModelName": null,
+            "MainModelNum": null,
+            "SubModelId1": null,
+            "SubModelName1": null,
+"SubModelNum1": null,
+            "SubModelId2": null,
+            "SubModelName2": null,
+"SubModelNum2": null,
+            "SubModelId3": null,
+            "SubModelName3": null,
+"SubModelNum3": null,
+            "SubModelId4": null,
+            "SubModelName4": null,
+"SubModelNum4": null,
+            "ModelId": 1,
+            "ModelName": "产品类型"
+            "ModelNum": 1
+        }
+    ]
+}
+,
+Time:    2016/3/30 14:52:17
+Action:  
+Source: Jayrock.Json
+Message: Expected a ',' or '}'. See line 60, position 13.
+StackTrace:    在 Jayrock.Json.JsonTextReader.ParseNextMember()
+   在 Jayrock.Json.JsonTextReader.ReadTokenImpl()
+   在 Jayrock.Json.JsonReaderBase.Read()
+   在 Jayrock.Json.JsonReader.ReadToken(JsonTokenClass token)
+   在 Jayrock.Json.Conversion.Converters.AnyImporter.ImportFromString(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.Converters.ImporterBase.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.ImportContext.Import(Type type, JsonReader reader)
+   在 Jayrock.Json.Conversion.ImportContext.Import(JsonReader reader)
+   在 Jayrock.Json.JsonObject.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.JsonObject.Jayrock.Json.Conversion.IJsonImportable.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.Converters.AnyImporter.ImportFromObject(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.Converters.ImporterBase.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.ImportContext.Import(Type type, JsonReader reader)
+   在 Jayrock.Json.Conversion.ImportContext.Import(JsonReader reader)
+   在 Jayrock.Json.JsonArray.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.JsonArray.Jayrock.Json.Conversion.IJsonImportable.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.Converters.AnyImporter.ImportFromArray(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.Converters.ImporterBase.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.ImportContext.Import(Type type, JsonReader reader)
+   在 Jayrock.Json.Conversion.ImportContext.Import(JsonReader reader)
+   在 Jayrock.Json.JsonObject.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.JsonObject.Jayrock.Json.Conversion.IJsonImportable.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.Converters.AnyImporter.ImportFromObject(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.Converters.ImporterBase.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.ImportContext.Import(Type type, JsonReader reader)
+   在 Jayrock.Json.Conversion.JsonConvert.Import(Type type, JsonReader reader)
+   在 Jayrock.Json.Conversion.JsonConvert.Import(JsonReader reader)
+   在 Jayrock.Json.Conversion.JsonConvert.Import(String text)
+   在 Midea.Common.JsonHelper.JsonToDictionary(Type dictionaryType, String jsonString) 位置 E:\SDW\Midea\src\Sys.Common\JsonHelper.cs:行号 231
+   在 Midea.Common.JsonHelper.JsonToObject(Type T, String jsonString) 位置 E:\SDW\Midea\src\Sys.Common\JsonHelper.cs:行号 41
+   在 Midea.Common.JsonHelper.JsonToObject[T](String jsonString) 位置 E:\SDW\Midea\src\Sys.Common\JsonHelper.cs:行号 116
+   在 MobileInterface_InterfaceService.Page_Load(Object sender, EventArgs e) 位置 e:\SDW\Midea\src\Sys.Source\MobileInterface\InterfaceService.aspx.cs:行号 96
+-----------------------------------------------------------
+
+2016/3/30 14:52:17,,{"response_id":0,"response_msg":"处理异常！"},
+2016/3/30 14:54:58,------,调用开始,
+2016/3/30 14:55:02,收到数据,{
+"request_id": "create_orders",
+"token": "user_id|password",
+    "orders": [
+        {
+            "ProjectName": "美的空调安装项目",
+"UserLoginId": "13052894192",
+"CustomName": "仕德伟",
+"CityId": "1",
+"CityName": "苏州市",
+"AreaId": "2",
+"AreaName": "高新区",
+"Address": "湘江路",
+            "Remark": null
+        }
+    ],
+    "orders_type": [
+        {
+            "ProductType": 1,
+            "ProductTypeName": "产品类型1",
+            "MainModelId": 1,
+            "MainModelName": "主机类型",
+            "MainModelNum": 1,
+            "SubModelId1": 1,
+            "SubModelName1": "内机类型1",
+            "SubModelNum1": 1,
+            "SubModelId2": 2,
+            "SubModelName2": "内机类型2",
+            "SubModelNum2": 1,
+            "SubModelId3": 3,
+            "SubModelName3": "内机类型3",
+            "SubModelNum3": 1,
+            "SubModelId4": 4,
+            "SubModelName4": "内机类型4",
+            "SubModelNum4": 1,
+            "ModelId": null,
+            "ModelName": null,
+            "ModelNum": null
+        },
+        {
+            "ProductType": 2,
+            "ProductTypeName": "产品类型2",
+            "MainModelId": null,
+            "MainModelName": null,
+            "MainModelNum": null,
+            "SubModelId1": null,
+            "SubModelName1": null,
+"SubModelNum1": null,
+            "SubModelId2": null,
+            "SubModelName2": null,
+"SubModelNum2": null,
+            "SubModelId3": null,
+            "SubModelName3": null,
+"SubModelNum3": null,
+            "SubModelId4": null,
+            "SubModelName4": null,
+"SubModelNum4": null,
+            "ModelId": 1,
+            "ModelName": "产品类型"
+            "ModelNum": 1
+        }
+    ]
+}
+,
+Time:    2016/3/30 14:55:22
+Action:  
+Source: Jayrock.Json
+Message: Expected a ',' or '}'. See line 60, position 13.
+StackTrace:    在 Jayrock.Json.JsonTextReader.ParseNextMember()
+   在 Jayrock.Json.JsonTextReader.ReadTokenImpl()
+   在 Jayrock.Json.JsonReaderBase.Read()
+   在 Jayrock.Json.JsonReader.ReadToken(JsonTokenClass token)
+   在 Jayrock.Json.Conversion.Converters.AnyImporter.ImportFromString(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.Converters.ImporterBase.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.ImportContext.Import(Type type, JsonReader reader)
+   在 Jayrock.Json.Conversion.ImportContext.Import(JsonReader reader)
+   在 Jayrock.Json.JsonObject.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.JsonObject.Jayrock.Json.Conversion.IJsonImportable.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.Converters.AnyImporter.ImportFromObject(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.Converters.ImporterBase.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.ImportContext.Import(Type type, JsonReader reader)
+   在 Jayrock.Json.Conversion.ImportContext.Import(JsonReader reader)
+   在 Jayrock.Json.JsonArray.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.JsonArray.Jayrock.Json.Conversion.IJsonImportable.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.Converters.AnyImporter.ImportFromArray(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.Converters.ImporterBase.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.ImportContext.Import(Type type, JsonReader reader)
+   在 Jayrock.Json.Conversion.ImportContext.Import(JsonReader reader)
+   在 Jayrock.Json.JsonObject.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.JsonObject.Jayrock.Json.Conversion.IJsonImportable.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.Converters.AnyImporter.ImportFromObject(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.Converters.ImporterBase.Import(ImportContext context, JsonReader reader)
+   在 Jayrock.Json.Conversion.ImportContext.Import(Type type, JsonReader reader)
+   在 Jayrock.Json.Conversion.JsonConvert.Import(Type type, JsonReader reader)
+   在 Jayrock.Json.Conversion.JsonConvert.Import(JsonReader reader)
+   在 Jayrock.Json.Conversion.JsonConvert.Import(String text)
+   在 Midea.Common.JsonHelper.JsonToDictionary(Type dictionaryType, String jsonString) 位置 E:\SDW\Midea\src\Sys.Common\JsonHelper.cs:行号 231
+   在 Midea.Common.JsonHelper.JsonToObject(Type T, String jsonString) 位置 E:\SDW\Midea\src\Sys.Common\JsonHelper.cs:行号 41
+   在 Midea.Common.JsonHelper.JsonToObject[T](String jsonString) 位置 E:\SDW\Midea\src\Sys.Common\JsonHelper.cs:行号 116
+   在 MobileInterface_InterfaceService.Page_Load(Object sender, EventArgs e) 位置 e:\SDW\Midea\src\Sys.Source\MobileInterface\InterfaceService.aspx.cs:行号 96
+-----------------------------------------------------------
+
+2016/3/30 14:55:22,,{"response_id":0,"response_msg":"处理异常！"},
+2016/3/30 14:58:18,------,调用开始,
+2016/3/30 14:58:21,收到数据,{
+"request_id": "create_orders",
+"token": "user_id|password",
+    "orders": [
+        {
+            "ProjectName": "美的空调安装项目",
+"UserLoginId": "13052894192",
+"CustomName": "仕德伟",
+"CityId": "1",
+"CityName": "苏州市",
+"AreaId": "2",
+"AreaName": "高新区",
+"Address": "湘江路",
+            "Remark": null
+        }
+    ],
+    "orders_type": [
+        {
+            "ProductType": 1,
+            "ProductTypeName": "产品类型1",
+            "MainModelId": 1,
+            "MainModelName": "主机类型",
+            "MainModelNum": 1,
+            "SubModelId1": 1,
+            "SubModelName1": "内机类型1",
+            "SubModelNum1": 1,
+            "SubModelId2": 2,
+            "SubModelName2": "内机类型2",
+            "SubModelNum2": 1,
+            "SubModelId3": 3,
+            "SubModelName3": "内机类型3",
+            "SubModelNum3": 1,
+            "SubModelId4": 4,
+            "SubModelName4": "内机类型4",
+            "SubModelNum4": 1,
+            "ModelId": null,
+            "ModelName": null,
+            "ModelNum": null
+        },
+        {
+            "ProductType": 2,
+            "ProductTypeName": "产品类型2",
+            "MainModelId": null,
+            "MainModelName": null,
+            "MainModelNum": null,
+            "SubModelId1": null,
+            "SubModelName1": null,
+"SubModelNum1": null,
+            "SubModelId2": null,
+            "SubModelName2": null,
+"SubModelNum2": null,
+            "SubModelId3": null,
+            "SubModelName3": null,
+"SubModelNum3": null,
+            "SubModelId4": null,
+            "SubModelName4": null,
+"SubModelNum4": null,
+            "ModelId": 1,
+            "ModelName": "产品类型",
+            "ModelNum": 1
+        }
+    ]
+}
+,
+Time:    2016/3/30 14:59:28
+Action:  CreateOrders Error
+Source: Sys.Common
+Message: 列名 'MainModelNum' 无效。
+列名 'SubModelNum1' 无效。
+列名 'SubModelNum2' 无效。
+列名 'SubModelNum3' 无效。
+列名 'SubModelNum4' 无效。
+列名 'ModelNum' 无效。
+StackTrace:    在 Sys.Common.DbHelperSQL.ExecuteSql(String SQLString, SqlParameter[] cmdParms) 位置 E:\SDW\Midea\src\Sys.Common\DBHelperSQL.cs:行号 529
+   在 Sys.DAL.OrderType.Add(OrderType model) 位置 E:\SDW\Midea\src\Sys.Framework\DAL\AutoCode\OrderType.cs:行号 106
+   在 Sys.BLL.OrderType.Add(OrderType model) 位置 E:\SDW\Midea\src\Sys.Framework\BLL\AutoCode\OrderType.cs:行号 38
+   在 Sys.BLL.Orders.CreateOrders(IList`1 ordersList, IList`1 orderTypeList) 位置 E:\SDW\Midea\src\Sys.Framework\BLL\UserCode\Orders.cs:行号 38
+-----------------------------------------------------------
+
+2016/3/30 14:59:42,create_orders,{"response_id":0,"response_msg":"订单创建失败！"},
+2016/3/30 15:03:52,------,调用开始,
+2016/3/30 15:03:52,收到数据,{
+"request_id": "create_orders",
+"token": "user_id|password",
+    "orders": [
+        {
+            "ProjectName": "美的空调安装项目",
+"UserLoginId": "13052894192",
+"CustomName": "仕德伟",
+"CityId": "1",
+"CityName": "苏州市",
+"AreaId": "2",
+"AreaName": "高新区",
+"Address": "湘江路",
+            "Remark": null
+        }
+    ],
+    "orders_type": [
+        {
+            "ProductType": 1,
+            "ProductTypeName": "产品类型1",
+            "MainModelId": 1,
+            "MainModelName": "主机类型",
+            "MainModelNum": 1,
+            "SubModelId1": 1,
+            "SubModelName1": "内机类型1",
+            "SubModelNum1": 1,
+            "SubModelId2": 2,
+            "SubModelName2": "内机类型2",
+            "SubModelNum2": 1,
+            "SubModelId3": 3,
+            "SubModelName3": "内机类型3",
+            "SubModelNum3": 1,
+            "SubModelId4": 4,
+            "SubModelName4": "内机类型4",
+            "SubModelNum4": 1,
+            "ModelId": null,
+            "ModelName": null,
+            "ModelNum": null
+        },
+        {
+            "ProductType": 2,
+            "ProductTypeName": "产品类型2",
+            "MainModelId": null,
+            "MainModelName": null,
+            "MainModelNum": null,
+            "SubModelId1": null,
+            "SubModelName1": null,
+"SubModelNum1": null,
+            "SubModelId2": null,
+            "SubModelName2": null,
+"SubModelNum2": null,
+            "SubModelId3": null,
+            "SubModelName3": null,
+"SubModelNum3": null,
+            "SubModelId4": null,
+            "SubModelName4": null,
+"SubModelNum4": null,
+            "ModelId": 1,
+            "ModelName": "产品类型",
+            "ModelNum": 1
+        }
+    ]
+}
+,
+Time:    2016/3/30 15:03:52
+Action:  CreateOrders Error
+Source: Sys.Common
+Message: 违反了 PRIMARY KEY 约束 'PK_OrderType'。不能在对象 'dbo.OrderType' 中插入重复键。
+语句已终止。
+StackTrace:    在 Sys.Common.DbHelperSQL.ExecuteSql(String SQLString, SqlParameter[] cmdParms) 位置 E:\SDW\Midea\src\Sys.Common\DBHelperSQL.cs:行号 529
+   在 Sys.DAL.OrderType.Add(OrderType model) 位置 E:\SDW\Midea\src\Sys.Framework\DAL\AutoCode\OrderType.cs:行号 106
+   在 Sys.BLL.OrderType.Add(OrderType model) 位置 E:\SDW\Midea\src\Sys.Framework\BLL\AutoCode\OrderType.cs:行号 38
+   在 Sys.BLL.Orders.CreateOrders(IList`1 ordersList, IList`1 orderTypeList) 位置 E:\SDW\Midea\src\Sys.Framework\BLL\UserCode\Orders.cs:行号 38
+-----------------------------------------------------------
+
+2016/3/30 15:03:52,create_orders,{"response_id":0,"response_msg":"订单创建失败！"},
+2016/3/30 15:07:57,------,调用开始,
+2016/3/30 15:07:57,收到数据,{
+"request_id": "create_orders",
+"token": "user_id|password",
+    "orders": [
+        {
+            "ProjectName": "美的空调安装项目",
+"UserLoginId": "13052894192",
+"CustomName": "仕德伟",
+"CityId": "1",
+"CityName": "苏州市",
+"AreaId": "2",
+"AreaName": "高新区",
+"Address": "湘江路",
+            "Remark": null
+        }
+    ],
+    "orders_type": [
+        {
+            "ProductType": 1,
+            "ProductTypeName": "产品类型1",
+            "MainModelId": 1,
+            "MainModelName": "主机类型",
+            "MainModelNum": 1,
+            "SubModelId1": 1,
+            "SubModelName1": "内机类型1",
+            "SubModelNum1": 1,
+            "SubModelId2": 2,
+            "SubModelName2": "内机类型2",
+            "SubModelNum2": 1,
+            "SubModelId3": 3,
+            "SubModelName3": "内机类型3",
+            "SubModelNum3": 1,
+            "SubModelId4": 4,
+            "SubModelName4": "内机类型4",
+            "SubModelNum4": 1,
+            "ModelId": null,
+            "ModelName": null,
+            "ModelNum": null
+        },
+        {
+            "ProductType": 2,
+            "ProductTypeName": "产品类型2",
+            "MainModelId": null,
+            "MainModelName": null,
+            "MainModelNum": null,
+            "SubModelId1": null,
+            "SubModelName1": null,
+"SubModelNum1": null,
+            "SubModelId2": null,
+            "SubModelName2": null,
+"SubModelNum2": null,
+            "SubModelId3": null,
+            "SubModelName3": null,
+"SubModelNum3": null,
+            "SubModelId4": null,
+            "SubModelName4": null,
+"SubModelNum4": null,
+            "ModelId": 1,
+            "ModelName": "产品类型",
+            "ModelNum": 1
+        }
+    ]
+}
+,
+Time:    2016/3/30 15:07:57
+Action:  CreateOrders Error
+Source: Sys.Common
+Message: 当 IDENTITY_INSERT 设置为 OFF 时，不能为表 'OrderType' 中的标识列插入显式值。
+StackTrace:    在 Sys.Common.DbHelperSQL.ExecuteSql(String SQLString, SqlParameter[] cmdParms) 位置 E:\SDW\Midea\src\Sys.Common\DBHelperSQL.cs:行号 529
+   在 Sys.DAL.OrderType.Add(OrderType model) 位置 E:\SDW\Midea\src\Sys.Framework\DAL\AutoCode\OrderType.cs:行号 106
+   在 Sys.BLL.OrderType.Add(OrderType model) 位置 E:\SDW\Midea\src\Sys.Framework\BLL\AutoCode\OrderType.cs:行号 38
+   在 Sys.BLL.Orders.CreateOrders(IList`1 ordersList, IList`1 orderTypeList) 位置 E:\SDW\Midea\src\Sys.Framework\BLL\UserCode\Orders.cs:行号 38
+-----------------------------------------------------------
+
+2016/3/30 15:07:57,create_orders,{"response_id":0,"response_msg":"订单创建失败！"},
+2016/3/30 15:12:01,------,调用开始,
+2016/3/30 15:12:01,收到数据,{
+"request_id": "create_orders",
+"token": "user_id|password",
+    "orders": [
+        {
+            "ProjectName": "美的空调安装项目",
+"UserLoginId": "13052894192",
+"CustomName": "仕德伟",
+"CityId": "1",
+"CityName": "苏州市",
+"AreaId": "2",
+"AreaName": "高新区",
+"Address": "湘江路",
+            "Remark": null
+        }
+    ],
+    "orders_type": [
+        {
+            "ProductType": 1,
+            "ProductTypeName": "产品类型1",
+            "MainModelId": 1,
+            "MainModelName": "主机类型",
+            "MainModelNum": 1,
+            "SubModelId1": 1,
+            "SubModelName1": "内机类型1",
+            "SubModelNum1": 1,
+            "SubModelId2": 2,
+            "SubModelName2": "内机类型2",
+            "SubModelNum2": 1,
+            "SubModelId3": 3,
+            "SubModelName3": "内机类型3",
+            "SubModelNum3": 1,
+            "SubModelId4": 4,
+            "SubModelName4": "内机类型4",
+            "SubModelNum4": 1,
+            "ModelId": null,
+            "ModelName": null,
+            "ModelNum": null
+        },
+        {
+            "ProductType": 2,
+            "ProductTypeName": "产品类型2",
+            "MainModelId": null,
+            "MainModelName": null,
+            "MainModelNum": null,
+            "SubModelId1": null,
+            "SubModelName1": null,
+"SubModelNum1": null,
+            "SubModelId2": null,
+            "SubModelName2": null,
+"SubModelNum2": null,
+            "SubModelId3": null,
+            "SubModelName3": null,
+"SubModelNum3": null,
+            "SubModelId4": null,
+            "SubModelName4": null,
+"SubModelNum4": null,
+            "ModelId": 1,
+            "ModelName": "产品类型",
+            "ModelNum": 1
+        }
+    ]
+}
+,
+2016/3/30 15:12:01,create_orders,{"response_id":1,"response_msg":"订单创建成功！"},
+2016/3/30 15:23:25,------,调用开始,
+2016/3/30 15:23:25,收到数据,{
+"request_id": "create_orders",
+"token": "user_id|password",
+    "orders": [
+        {
+            "ProjectName": "美的空调安装项目",
+"UserLoginId": "13052894192",
+"CustomName": "仕德伟",
+"CityId": "1",
+"CityName": "苏州市",
+"AreaId": "2",
+"AreaName": "高新区",
+"Address": "湘江路",
+            "Remark": null
+        }
+    ],
+    "orders_type": [
+        {
+            "ProductType": 1,
+            "ProductTypeName": "产品类型1",
+            "MainModelId": 1,
+            "MainModelName": "主机类型",
+            "MainModelNum": 1,
+            "SubModelId1": 1,
+            "SubModelName1": "内机类型1",
+            "SubModelNum1": 1,
+            "SubModelId2": 2,
+            "SubModelName2": "内机类型2",
+            "SubModelNum2": 1,
+            "SubModelId3": 3,
+            "SubModelName3": "内机类型3",
+            "SubModelNum3": 1,
+            "SubModelId4": 4,
+            "SubModelName4": "内机类型4",
+            "SubModelNum4": 1,
+            "ModelId": null,
+            "ModelName": null,
+            "ModelNum": null
+        },
+        {
+            "ProductType": 2,
+            "ProductTypeName": "产品类型2",
+            "MainModelId": null,
+            "MainModelName": null,
+            "MainModelNum": null,
+            "SubModelId1": null,
+            "SubModelName1": null,
+"SubModelNum1": null,
+            "SubModelId2": null,
+            "SubModelName2": null,
+"SubModelNum2": null,
+            "SubModelId3": null,
+            "SubModelName3": null,
+"SubModelNum3": null,
+            "SubModelId4": null,
+            "SubModelName4": null,
+"SubModelNum4": null,
+            "ModelId": 1,
+            "ModelName": "产品类型",
+            "ModelNum": 1
+        }
+    ]
+}
+,
+2016/3/30 15:23:26,create_orders,{"response_id":1,"response_msg":"订单创建成功！"},
+2016/3/30 15:27:03,------,调用开始,
+2016/3/30 15:27:03,收到数据,{
+"request_id": "create_orders",
+"token": "user_id|password",
+    "orders": [
+        {
+            "ProjectName": "美的空调安装项目",
+"UserLoginId": "15156056293",
+"CustomName": "仕德伟",
+"CityId": "1",
+"CityName": "苏州市",
+"AreaId": "2",
+"AreaName": "高新区",
+"Address": "湘江路",
+            "Remark": null
+        }
+    ],
+    "orders_type": [
+        {
+            "ProductType": 1,
+            "ProductTypeName": "产品类型1",
+            "MainModelId": 1,
+            "MainModelName": "主机类型",
+            "MainModelNum": 1,
+            "SubModelId1": 1,
+            "SubModelName1": "内机类型1",
+            "SubModelNum1": 1,
+            "SubModelId2": 2,
+            "SubModelName2": "内机类型2",
+            "SubModelNum2": 1,
+            "SubModelId3": 3,
+            "SubModelName3": "内机类型3",
+            "SubModelNum3": 1,
+            "SubModelId4": 4,
+            "SubModelName4": "内机类型4",
+            "SubModelNum4": 1,
+            "ModelId": null,
+            "ModelName": null,
+            "ModelNum": null
+        },
+        {
+            "ProductType": 2,
+            "ProductTypeName": "产品类型2",
+            "MainModelId": null,
+            "MainModelName": null,
+            "MainModelNum": null,
+            "SubModelId1": null,
+            "SubModelName1": null,
+"SubModelNum1": null,
+            "SubModelId2": null,
+            "SubModelName2": null,
+"SubModelNum2": null,
+            "SubModelId3": null,
+            "SubModelName3": null,
+"SubModelNum3": null,
+            "SubModelId4": null,
+            "SubModelName4": null,
+"SubModelNum4": null,
+            "ModelId": 1,
+            "ModelName": "产品类型",
+            "ModelNum": 1
+        }
+    ]
+}
+,
+2016/3/30 15:27:03,create_orders,{"response_id":1,"response_msg":"订单创建成功！"},
+2016/3/30 15:30:11,------,调用开始,
+2016/3/30 15:30:11,收到数据,{"request_id":"login", "user_id":"15156056293", "password":"w15212947589"},
+2016/3/30 15:30:12,login,{"response_id":0,"response_msg":"登陆失败！"},
+2016/3/30 15:30:31,------,调用开始,
+2016/3/30 15:30:31,收到数据,{"request_id":"login", "user_id":"15156056293", "password":"w15212947589"},
+2016/3/30 15:32:24,login,{"response_id":0,"response_msg":"登陆失败！"},
+2016/3/30 15:37:01,------,调用开始,
+2016/3/30 15:37:01,收到数据,{"request_id":"login", "user_id":"15156056293", "password":"w15212947589"},
+2016/3/30 15:37:01,login,{"response_id":1,"response_msg":"登陆成功！","user_info":[{"USERLOGINID":"15156056293","USERNAME":"苏亚雷斯","PASSWORD":"8b871389c0ccbdf9cda4d014b0818d87","CompanyName":"仕德伟","ProvinceName":null,"CityName":"苏州","Address":"湘江路533","contact":"15156056293","TypeKey":"05","TypeValue":"安装人员","RoleId":2}]},
+2016/3/30 16:13:55,------,调用开始,
+2016/3/30 16:13:55,收到数据,,
+2016/3/30 16:13:55,,{"CommentId":0,"OrderId":null,"StarLevel":null,"Remark":null,"CreateUserId":null,"CreateDate":null},
+2016/3/30 16:14:04,------,调用开始,
+2016/3/30 16:14:04,收到数据,,
+2016/3/30 16:14:04,,{"CommentId":0,"OrderId":null,"StarLevel":null,"Remark":null,"CreateUserId":null,"CreateDate":null},
+2016/3/30 16:14:32,------,调用开始,
+2016/3/30 16:14:32,收到数据,,
+2016/3/30 16:15:22,,{"CommentId":0,"OrderId":null,"StarLevel":null,"Remark":null,"CreateUserId":null,"CreateDate":null},
+2016/3/30 16:16:29,------,调用开始,
+2016/3/30 16:16:29,收到数据,,
+2016/3/30 16:16:40,,{"CommentId":0,"OrderId":null,"StarLevel":null,"Remark":null,"CreateUserId":null,"CreateDate":null},
+2016/3/30 16:26:26,------,调用开始,
+2016/3/30 16:26:26,收到数据,{"request_id":"register_init"},
+2016/3/30 16:26:26,register_init,{"AgentType":{"01":"美的中央空调专卖店","02":"美的制造旗舰店","03":"KA连锁","04":"其他渠道"},"InstallerTypeList":{"05":"安装人员","06":"安装负责人"},"Provice":{"23":"江苏省"},"City":{"2342":"苏州市"},"Area":{"2553":"工业园区","2552":"相城区","2551":"吴中区","2550":"高新区","2549":"平江区","2548":"金阊区","2547":"沧浪区","2546":"张家港市","2545":"吴江市","2544":"太仓市","2543":"苏州市区","2542":"昆山市","2541":"常熟市"},"response_id":1,"response_msg":"初始化成功！"},
+2016/3/30 16:30:41,------,调用开始,
+2016/3/30 16:30:41,收到数据,{"request_id":"register_init"},
+2016/3/30 16:30:41,register_init,{"AgentType":{"01":"美的中央空调专卖店","02":"美的制造旗舰店","03":"KA连锁","04":"其他渠道"},"InstallerTypeList":{"05":"安装人员","06":"安装负责人"},"Provice":{"23":"江苏省"},"City":{"2342":"苏州市"},"Area":{"2553":"工业园区","2552":"相城区","2551":"吴中区","2550":"高新区","2549":"平江区","2548":"金阊区","2547":"沧浪区","2546":"张家港市","2545":"吴江市","2544":"太仓市","2543":"苏州市区","2542":"昆山市","2541":"常熟市"},"response_id":1,"response_msg":"初始化成功！"},
+2016/3/30 17:08:03,------,调用开始,
+2016/3/30 17:08:03,收到数据,{"request_id":"register_init"},
+2016/3/30 17:08:03,register_init,{"AgentType":["[01, 美的中央空调专卖店]","[02, 美的制造旗舰店]","[03, KA连锁]","[04, 其他渠道]"],"InstallerTypeList":["[05, 安装人员]","[06, 安装负责人]"],"Provice":["[23, 江苏省]"],"City":["[2342, 苏州市]"],"Area":["[2553, 工业园区]","[2552, 相城区]","[2551, 吴中区]","[2550, 高新区]","[2549, 平江区]","[2548, 金阊区]","[2547, 沧浪区]","[2546, 张家港市]","[2545, 吴江市]","[2544, 太仓市]","[2543, 苏州市区]","[2542, 昆山市]","[2541, 常熟市]"],"response_id":1,"response_msg":"初始化成功！"},
+2016/3/30 17:15:16,------,调用开始,
+2016/3/30 17:15:16,收到数据,{"request_id":"register_init"},
+2016/3/30 17:15:48,register_init,{"AgentType":["[01, 美的中央空调专卖店]","[02, 美的制造旗舰店]","[03, KA连锁]","[04, 其他渠道]"],"InstallerTypeList":["[05, 安装人员]","[06, 安装负责人]"],"Provice":["[23, 江苏省]"],"City":["[2342, 苏州市]"],"Area":["[2553, 工业园区]","[2552, 相城区]","[2551, 吴中区]","[2550, 高新区]","[2549, 平江区]","[2548, 金阊区]","[2547, 沧浪区]","[2546, 张家港市]","[2545, 吴江市]","[2544, 太仓市]","[2543, 苏州市区]","[2542, 昆山市]","[2541, 常熟市]"],"response_id":1,"response_msg":"初始化成功！"},
+2016/3/30 17:16:10,------,调用开始,
+2016/3/30 17:16:10,收到数据,{"request_id":"register_init"},
+2016/3/30 17:16:10,register_init,{"AgentType":["[01, 美的中央空调专卖店]","[02, 美的制造旗舰店]","[03, KA连锁]","[04, 其他渠道]"],"InstallerTypeList":["[05, 安装人员]","[06, 安装负责人]"],"Provice":["[23, 江苏省]"],"City":["[2342, 苏州市]"],"Area":["[2553, 工业园区]","[2552, 相城区]","[2551, 吴中区]","[2550, 高新区]","[2549, 平江区]","[2548, 金阊区]","[2547, 沧浪区]","[2546, 张家港市]","[2545, 吴江市]","[2544, 太仓市]","[2543, 苏州市区]","[2542, 昆山市]","[2541, 常熟市]"],"response_id":1,"response_msg":"初始化成功！"},
+2016/3/30 17:16:12,------,调用开始,
+2016/3/30 17:16:12,收到数据,{"request_id":"register_init"},
+2016/3/30 17:16:12,register_init,{"AgentType":["[01, 美的中央空调专卖店]","[02, 美的制造旗舰店]","[03, KA连锁]","[04, 其他渠道]"],"InstallerTypeList":["[05, 安装人员]","[06, 安装负责人]"],"Provice":["[23, 江苏省]"],"City":["[2342, 苏州市]"],"Area":["[2553, 工业园区]","[2552, 相城区]","[2551, 吴中区]","[2550, 高新区]","[2549, 平江区]","[2548, 金阊区]","[2547, 沧浪区]","[2546, 张家港市]","[2545, 吴江市]","[2544, 太仓市]","[2543, 苏州市区]","[2542, 昆山市]","[2541, 常熟市]"],"response_id":1,"response_msg":"初始化成功！"},
+2016/3/30 17:19:42,------,调用开始,
+2016/3/30 17:19:42,收到数据,{"request_id":"register_init"},
+2016/3/30 17:19:56,register_init,{"AgentType":["[01, 美的中央空调专卖店]","[02, 美的制造旗舰店]","[03, KA连锁]","[04, 其他渠道]"],"InstallerTypeList":["[05, 安装人员]","[06, 安装负责人]"],"Provice":["[23, 江苏省]"],"City":["[2342, 苏州市]"],"Area":["[2553, 工业园区]","[2552, 相城区]","[2551, 吴中区]","[2550, 高新区]","[2549, 平江区]","[2548, 金阊区]","[2547, 沧浪区]","[2546, 张家港市]","[2545, 吴江市]","[2544, 太仓市]","[2543, 苏州市区]","[2542, 昆山市]","[2541, 常熟市]"],"response_id":1,"response_msg":"初始化成功！"},
+2016/3/30 17:25:39,------,调用开始,
+2016/3/30 17:25:39,收到数据,{"request_id":"register_init"},
+2016/3/30 17:25:39,register_init,{"AgentType":["[01, 美的中央空调专卖店]","[02, 美的制造旗舰店]","[03, KA连锁]","[04, 其他渠道]"],"InstallerTypeList":["[05, 安装人员]","[06, 安装负责人]"],"Provice":["[23, 江苏省]"],"City":["[2342, 苏州市]"],"Area":["[2553, 工业园区]","[2552, 相城区]","[2551, 吴中区]","[2550, 高新区]","[2549, 平江区]","[2548, 金阊区]","[2547, 沧浪区]","[2546, 张家港市]","[2545, 吴江市]","[2544, 太仓市]","[2543, 苏州市区]","[2542, 昆山市]","[2541, 常熟市]"],"Area2":[{"Key":"2553","Value":"工业园区"},{"Key":"2552","Value":"相城区"},{"Key":"2551","Value":"吴中区"},{"Key":"2550","Value":"高新区"},{"Key":"2549","Value":"平江区"},{"Key":"2548","Value":"金阊区"},{"Key":"2547","Value":"沧浪区"},{"Key":"2546","Value":"张家港市"},{"Key":"2545","Value":"吴江市"},{"Key":"2544","Value":"太仓市"},{"Key":"2543","Value":"苏州市区"},{"Key":"2542","Value":"昆山市"},{"Key":"2541","Value":"常熟市"}],"response_id":1,"response_msg":"初始化成功！"},
+2016/3/30 17:35:05,------,调用开始,
+2016/3/30 17:35:05,收到数据,{"request_id":"register_init"},
+2016/3/30 17:35:05,register_init,{"AgentType":[{"Key":"01","Value":"美的中央空调专卖店"},{"Key":"02","Value":"美的制造旗舰店"},{"Key":"03","Value":"KA连锁"},{"Key":"04","Value":"其他渠道"}],"InstallerTypeList":[{"Key":"05","Value":"安装人员"},{"Key":"06","Value":"安装负责人"}],"Provice":[{"Key":"23","Value":"江苏省"}],"City":[{"Key":"2342","Value":"苏州市"}],"Area":[{"Key":"2553","Value":"工业园区"},{"Key":"2552","Value":"相城区"},{"Key":"2551","Value":"吴中区"},{"Key":"2550","Value":"高新区"},{"Key":"2549","Value":"平江区"},{"Key":"2548","Value":"金阊区"},{"Key":"2547","Value":"沧浪区"},{"Key":"2546","Value":"张家港市"},{"Key":"2545","Value":"吴江市"},{"Key":"2544","Value":"太仓市"},{"Key":"2543","Value":"苏州市区"},{"Key":"2542","Value":"昆山市"},{"Key":"2541","Value":"常熟市"}],"response_id":1,"response_msg":"初始化成功！"},
+2016/3/30 17:57:37,------,调用开始,
+2016/3/30 17:57:37,收到数据,{"request_id":"orders_init","token":"user_id|password"},
+2016/3/30 17:57:37,orders_init,{"parent_eqpmodel_info":[],"sub_eqpmodel_info":[],"Provice":[{"Key":"23","Value":"江苏省"}],"City":[{"Key":"2342","Value":"苏州市"}],"Area":[{"Key":"2553","Value":"工业园区"},{"Key":"2552","Value":"相城区"},{"Key":"2551","Value":"吴中区"},{"Key":"2550","Value":"高新区"},{"Key":"2549","Value":"平江区"},{"Key":"2548","Value":"金阊区"},{"Key":"2547","Value":"沧浪区"},{"Key":"2546","Value":"张家港市"},{"Key":"2545","Value":"吴江市"},{"Key":"2544","Value":"太仓市"},{"Key":"2543","Value":"苏州市区"},{"Key":"2542","Value":"昆山市"},{"Key":"2541","Value":"常熟市"}],"response_id":1,"response_msg":"创建成功！"},
+2016/3/30 17:58:02,------,调用开始,
+2016/3/30 17:58:02,收到数据,{"request_id":"orders_init","token":"user_id|password"},
+2016/3/30 17:58:02,orders_init,{"parent_eqpmodel_info":[],"sub_eqpmodel_info":[],"Provice":[{"Key":"23","Value":"江苏省"}],"City":[{"Key":"2342","Value":"苏州市"}],"Area":[{"Key":"2553","Value":"工业园区"},{"Key":"2552","Value":"相城区"},{"Key":"2551","Value":"吴中区"},{"Key":"2550","Value":"高新区"},{"Key":"2549","Value":"平江区"},{"Key":"2548","Value":"金阊区"},{"Key":"2547","Value":"沧浪区"},{"Key":"2546","Value":"张家港市"},{"Key":"2545","Value":"吴江市"},{"Key":"2544","Value":"太仓市"},{"Key":"2543","Value":"苏州市区"},{"Key":"2542","Value":"昆山市"},{"Key":"2541","Value":"常熟市"}],"response_id":1,"response_msg":"初始化成功！"},
